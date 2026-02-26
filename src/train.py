@@ -100,7 +100,9 @@ def save_model(nn, filepath):
     Returns:
         None
     """
-    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    dir_name = os.path.dirname(filepath)
+    if dir_name:
+        os.makedirs(dir_name, exist_ok=True)
     model_params = {}
     for i, layer in enumerate(nn.layers):
         model_params[f'W_{i}'] = layer.W
@@ -124,12 +126,21 @@ def main():
     nn = NeuralNetwork(args)
     optimizer = get_optimizer(args.optimizer, args.learning_rate)
     # The Training Loop
+    
+    tracker_file = f"{args.model_save_path}.acc_tracker"
+    global_best_acc = 0.0
+    if os.path.exists(tracker_file):
+        with open(tracker_file, 'r') as f:
+            try:
+                global_best_acc = float(f.read().strip())
+                print(f"Loaded previous global best accuracy: {global_best_acc:.4f}")
+            except ValueError:
+                pass
     print("Starting training")
     for epoch in range(args.epochs):
         train_loss_accum = 0.0
         correct_train_preds = 0
         total_train_samples = 0
-        best_val_acc = 0.0
         # Do mini batch gradient descent
         for X_batch, y_batch in get_batches(X_train, y_train, args.batch_size):
             # Forward pass
@@ -162,11 +173,13 @@ def main():
         })
     
     # Save the best model
-    if val_accuracy > best_val_acc:
-            best_val_acc = val_accuracy
-            print(f"New best validation accuracy ({best_val_acc:.4f})")
+    if val_accuracy > global_best_acc:
+            global_best_acc = val_accuracy
+            print(f"New best validation accuracy ({global_best_acc:.4f})")
             print("Saving model weights\n")
             save_model(nn, args.model_save_path)
+            with open(tracker_file, 'w') as f:
+                f.write(str(global_best_acc))
     # Finish W&B run
     wandb.finish()
     print("\nTraining complete")
