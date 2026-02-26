@@ -2,8 +2,15 @@
 Main Training Script
 Entry point for training neural networks with command-line arguments
 """
-
+#Load the libraries
+import os
 import argparse
+import numpy as np
+import wandb
+#Load the models
+from utils.data_loader import get_preprocessed_data
+from ann.neural_network import NeuralNetwork
+from ann.optimizers import get_optimizer
 
 def parse_arguments():
     """
@@ -54,33 +61,115 @@ def parse_arguments():
                         choices=['cross_entropy', 'mse'],
                         help="Loss function to compute gradients")
     # Logging and Saving
-    parser.add_argument('--wandb_project', type=str, default='my-mlp-project', 
+    parser.add_argument('--wandb_project', type=str, default='da6401-assignment-1', 
                         help='Weights & Biases project name for logging')
-    parser.add_argument('--model_save_path', type=str, default='checkpoints/model.npz', 
+    parser.add_argument('--model_save_path', type=str, default='best_model.npy', 
                         help='Relative path to save trained model weights')
     
     return parser.parse_args()
 
 
+def get_batches(X, y, batch_size):
+    """
+    Generate mini-batches from the given data.
+    
+    Args:
+        X: Input data
+        y: True labels
+        batch_size: Mini-batch size
+        
+    Returns:
+        Batches of data
+    """
+    m = X.shape[0]
+    # Shuffle indices
+    indices = np.arange(m)
+    np.random.shuffle(indices)
+    for i in range(0, m, batch_size):
+        batch_idx = indices[i:i + batch_size]
+        yield X[batch_idx], y[batch_idx]
+
+def save_model(nn, filepath):
+    """
+    Save model weights to a .npy file.
+    
+    Args:
+        nn: NeuralNetwork object
+        filepath: Path to save .npy file
+        
+    Returns:
+        None
+    """
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    model_params = {}
+    for i, layer in enumerate(nn.layers):
+        model_params[f'W_{i}'] = layer.W
+        model_params[f'b_{i}'] = layer.b
+        
+    np.save(filepath, model_params)
+    print(f"Model successfully saved to {filepath}")
+
 def main():
     """
     Main training function.
+    
     """
     args = parse_arguments()
-    
-    print("##Training Configuration\n")
-    for arg in vars(args):
-        print(f"{arg}: {getattr(args, arg)}")
+    # Initialize Weights & Biases
+    wandb.init(project=args.wandb_project, config=vars(args))
+    print(f"Loading {args.dataset} dataset")
+    # Preprocess the data
+    X_train, y_train, X_test, y_test = get_preprocessed_data(args.dataset)
+    print(f"Initializing Neural Network with {args.hidden_layers} hidden layers")
+    nn = NeuralNetwork(args)
+    optimizer = get_optimizer(args.optimizer, args.learning_rate)
+    # The Training Loop
+    print("Starting training")
+    for epoch in range(args.epochs):
+        train_loss_accum = 0.0
+        correct_train_preds = 0
+        total_train_samples = 0
+        best_val_acc = 0.0
+        # Do mini batch gradient descent
+        for X_batch, y_batch in get_batches(X_train, y_train, args.batch_size):
+            # Forward pass
+            y_pred = nn.forward(X_batch)
+            # Backward pass
+            grads = nn.backward(y_batch, y_pred)
+            # Update weights
+            nn.update_weights(grads, optimizer)
+            predictions = np.argmax(y_pred, axis=1)
+            true_labels = np.argmax(y_batch, axis=1)
+            correct_train_preds += np.sum(predictions == true_labels)
+            total_train_samples += X_batch.shape[0]
+            
+        train_accuracy = correct_train_preds / total_train_samples
+        # Evaluate on validation set at the end of the epoch
+        val_loss, val_accuracy = nn.evaluate(X_test, y_test)
+        # Accumulate train loss
+        train_loss, _ = nn.evaluate(X_train, y_train)
+        print(f"Epoch {epoch+1}/{args.epochs} - "
+              f"Train Loss: {train_loss:.4f}, Train Acc: {train_accuracy:.4f} - "
+              f"Val Loss: {val_loss:.4f}, Val Acc: {val_accuracy:.4f}")
         
-        
-    # TODO: Initialize WandB logging
-    # TODO: Load Data using the dataloader
-    # TODO: Initialize Neural Network
-    # TODO: Training Loop
-    # TODO: Save Model
+        # Wandb logging
+        wandb.log({
+            "epoch": epoch + 1,
+            "train_loss": train_loss,
+            "train_accuracy": train_accuracy,
+            "val_loss": val_loss,
+            "val_accuracy": val_accuracy
+        })
     
-    print("\nTraining complete!")
-
+    # Save the best model
+    if val_accuracy > best_val_acc:
+            best_val_acc = val_accuracy
+            print(f"New best validation accuracy ({best_val_acc:.4f})")
+            print("Saving model weights\n")
+            save_model(nn, args.model_save_path)
+    # Finish W&B run
+    wandb.finish()
+    print("\nTraining complete")
 
 if __name__ == '__main__':
     main()
