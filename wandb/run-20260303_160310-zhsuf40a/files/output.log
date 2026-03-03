@@ -1,0 +1,18 @@
+
+ Training CONFIG_1_SHALLOW_BASELINE on Fashion-MNIST
+Epoch 1 | Train Loss: 0.4420 | Val Acc: 0.8241
+Epoch 2 | Train Loss: 0.3949 | Val Acc: 0.8382
+Epoch 3 | Train Loss: 0.3458 | Val Acc: 0.8560
+Epoch 4 | Train Loss: 0.3248 | Val Acc: 0.8607
+Epoch 5 | Train Loss: 0.3158 | Val Acc: 0.8628
+Epoch 6 | Train Loss: 0.2905 | Val Acc: 0.8698
+Epoch 7 | Train Loss: 0.2784 | Val Acc: 0.8730
+Epoch 8 | Train Loss: 0.2679 | Val Acc: 0.8780
+Epoch 9 | Train Loss: 0.2661 | Val Acc: 0.8765
+Epoch 10 | Train Loss: 0.2578 | Val Acc: 0.8739
+Epoch 11 | Train Loss: 0.2475 | Val Acc: 0.8764
+Epoch 12 | Train Loss: 0.2394 | Val Acc: 0.8816
+Epoch 13 | Train Loss: 0.2386 | Val Acc: 0.8811
+Epoch 14 | Train Loss: 0.2293 | Val Acc: 0.8814
+Epoch 15 | Train Loss: 0.2429 | Val Acc: 0.8769
+ Best Validation Accuracy for Config_1_Shallow_Baseline: 0.8816

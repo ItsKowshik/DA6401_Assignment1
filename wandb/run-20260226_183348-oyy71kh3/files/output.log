@@ -1,0 +1,5 @@
+
+ Tracking Gradients for RELU
+Epoch 1 complete. Current Grad Norm: 0.317045
+Epoch 2 complete. Current Grad Norm: 0.081930
+Epoch 3 complete. Current Grad Norm: 0.140170

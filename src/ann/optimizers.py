@@ -41,6 +41,7 @@ class SGD(Optimizer):
     Args:
         learning_rate (float): Learning rate
     """
+    # Initialize the optimizer
     def update(self, layers, grads):
         for i, layer in enumerate(layers):
             dW, db = grads[i]
@@ -169,6 +170,7 @@ class Adam(Optimizer):
         Returns:
             None
         """
+        # Call the base class constructor to initialize learning rate
         super().__init__(learning_rate)
         self.beta1 = beta1
         self.beta2 = beta2
@@ -189,6 +191,7 @@ class Adam(Optimizer):
             None
         """
         self.t += 1
+        # Update first and second moment estimates, apply bias correction, and update weights
         for i, layer in enumerate(layers):
             dW, db = grads[i]
             if i not in self.m_W:
@@ -240,6 +243,7 @@ class Nadam(Optimizer):
         Returns:
             None
         """
+        # Call the base class constructor to initialize learning rate
         super().__init__(learning_rate)
         self.beta1 = beta1
         self.beta2 = beta2
@@ -260,6 +264,7 @@ class Nadam(Optimizer):
             None
         """
         self.t += 1
+        # Update first and second moment estimates, apply bias correction, and update weights using Nesterov momentum
         for i, layer in enumerate(layers):
             dW, db = grads[i]
             if i not in self.m_W:
@@ -301,6 +306,7 @@ class RMSprop(Optimizer):
         Returns:
             None
         """
+        # Call the base class constructor to initialize learning rate
         super().__init__(learning_rate)
         self.beta = beta
         self.epsilon = epsilon
@@ -317,7 +323,9 @@ class RMSprop(Optimizer):
         Returns:
             None
         """
+        # Update squared gradients and update weights
         for i, layer in enumerate(layers):
+            # Get gradients for current layer
             dW, db = grads[i]
             if i not in self.s_W:
                 self.s_W[i] = np.zeros_like(layer.W)
@@ -342,6 +350,7 @@ def get_optimizer(optimizer_name, learning_rate):
     Returns:
         Optimizer: Optimizer class
     """
+    # Map of optimizer names to classes
     opt_map = {
         'sgd': SGD,
         'momentum': Momentum,

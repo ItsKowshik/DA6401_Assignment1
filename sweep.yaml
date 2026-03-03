@@ -1,0 +1,29 @@
+# sweep.yaml
+# Weights & Biases Sweep Configuration for MLP Hyperparameter Search
+
+project: dl_1
+program: src/train.py
+method: random # or bayes/grid
+metric:
+  name: val_accuracy
+  goal: maximize
+parameters:
+  # CHANGE THESE to match your argparse --long-names
+  num_layers:      # Was hidden_layers
+    values: [1, 2, 3, 4]
+  hidden_size:     # Was num_neurons
+    values: [64, 128, 256]
+  activation:
+    values: ["sigmoid", "tanh", "relu"]
+  optimizer:
+    values: ["sgd", "momentum", "nag", "rmsprop"]
+  batch_size:
+    values: [16, 32, 64]
+  learning_rate:
+    distribution: log_uniform_values
+    min: 0.0001
+    max: 0.1
+  weight_init:
+    values: ["random", "xavier"]
+  loss:
+    values: ["cross_entropy", "mse"]

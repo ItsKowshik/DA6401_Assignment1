@@ -1,0 +1,12 @@
+{"time":"2026-02-26T14:31:13.8842684+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-26T14:31:15.6313031+05:30","level":"INFO","msg":"stream: created new stream","id":"qo2vglij"}
+{"time":"2026-02-26T14:31:15.6318064+05:30","level":"INFO","msg":"handler: started","stream_id":"qo2vglij"}
+{"time":"2026-02-26T14:31:15.6337336+05:30","level":"INFO","msg":"stream: started","id":"qo2vglij"}
+{"time":"2026-02-26T14:31:15.6350266+05:30","level":"INFO","msg":"sender: started","stream_id":"qo2vglij"}
+{"time":"2026-02-26T14:31:15.6350266+05:30","level":"INFO","msg":"writer: started","stream_id":"qo2vglij"}
+{"time":"2026-02-26T14:31:47.1723959+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-26T14:31:47.4911033+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-26T14:31:47.5066782+05:30","level":"INFO","msg":"stream: closing","id":"qo2vglij"}
+{"time":"2026-02-26T14:31:47.5066782+05:30","level":"INFO","msg":"handler: closed","stream_id":"qo2vglij"}
+{"time":"2026-02-26T14:31:47.510009+05:30","level":"INFO","msg":"sender: closed","stream_id":"qo2vglij"}
+{"time":"2026-02-26T14:31:47.510009+05:30","level":"INFO","msg":"stream: closed","id":"qo2vglij"}

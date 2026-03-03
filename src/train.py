@@ -7,6 +7,7 @@ import os
 import argparse
 import numpy as np
 import wandb
+import json
 #Load the models
 from utils.data_loader import get_preprocessed_data
 from ann.neural_network import NeuralNetwork
@@ -37,34 +38,28 @@ def parse_arguments():
                         help="Dataset to train on: 'mnist' or 'fashion_mnist'")
     parser.add_argument('--epochs', type=int, default=10, 
                         help='Number of training epochs')
-    parser.add_argument('--batch_size', type=int, default=32, 
+    parser.add_argument('-b','--batch_size', type=int, default=32, 
                         help='Mini-batch size for training')
-    parser.add_argument('--learning_rate', type=float, default=0.01, 
-                        help='Learning rate for the optimizer')
+    #parser.add_argument('-lr','--learning_rate', type=float, default=0.01, 
+                        #help='Learning rate for the optimizer')
     # Optimizer Configuration
-    parser.add_argument('--optimizer', type=str, default='sgd', 
-                        choices=['sgd', 'momentum', 'nag', 'rmsprop', 'adam', 'nadam'],
-                        help="Optimizer algorithm to use")
+    parser.add_argument('-o', '--optimizer', type=str, default='rmsprop', choices=['sgd', 'momentum', 'nag', 'rmsprop'])
+    parser.add_argument('-lr', '--learning_rate', type=float, default=0.001)
+    parser.add_argument('-wd', '--weight_decay', type=float, default=0.0)
     # Architecture Configuration
-    parser.add_argument('--hidden_layers', type=int, default=1, 
-                        help='Number of hidden layers in the network')
-    parser.add_argument('--num_neurons', type=int, default=64, 
-                        help='Number of neurons per hidden layer')
-    parser.add_argument('--activation', type=str, default='relu', 
-                        choices=['relu', 'sigmoid', 'tanh'],
-                        help="Activation function for hidden layers")
-    parser.add_argument('--weight_init', type=str, default='random',
-                        choices=['random', 'zeros', 'xavier'],
-                        help="Method to initialize weights")
+    parser.add_argument('-nhl', '--num_layers', type=int, default=3, help='Number of hidden layers')
+    parser.add_argument('-sz', '--hidden_size', type=int, nargs='+', default=[128, 128, 128], help='Neurons in each hidden layer')
+    parser.add_argument('-a', '--activation', type=str, default='relu', choices=['sigmoid', 'tanh', 'relu'])
+    parser.add_argument('-wi', '--weight_init', type=str, default='xavier', choices=['random', 'xavier'])
     # Loss Function
     parser.add_argument('--loss', type=str, default='cross_entropy', 
                         choices=['cross_entropy', 'mse'],
                         help="Loss function to compute gradients")
     # Logging and Saving
-    parser.add_argument('--wandb_project', type=str, default='da6401-assignment-1', 
-                        help='Weights & Biases project name for logging')
-    parser.add_argument('--model_save_path', type=str, default='best_model.npy', 
-                        help='Relative path to save trained model weights')
+    parser.add_argument('--model_path', type=str, default='best_model.npy', help='Path to save/load the model')
+    # W&B logging configuration
+    parser.add_argument('-w_p', '--wandb_project', type=str, default='dl_1', help='Weights and Biases Project ID')
+    
     
     return parser.parse_args()
 
@@ -117,17 +112,23 @@ def main():
     
     """
     args = parse_arguments()
+    if len(args.hidden_size) != args.num_layers:
+        raise ValueError(
+            f"Architecture Mismatch: You specified {args.num_layers} layers "
+            f"but provided {len(args.hidden_size)} hidden sizes ({args.hidden_size}). "
+            f"Please match these counts."
+        )
     # Initialize Weights & Biases
     wandb.init(project=args.wandb_project, config=vars(args))
     print(f"Loading {args.dataset} dataset")
     # Preprocess the data
     X_train, y_train, X_test, y_test = get_preprocessed_data(args.dataset)
-    print(f"Initializing Neural Network with {args.hidden_layers} hidden layers")
+    print(f"Initializing Neural Network with {args.num_layers} hidden layers")
     nn = NeuralNetwork(args)
     optimizer = get_optimizer(args.optimizer, args.learning_rate)
     # The Training Loop
     
-    tracker_file = f"{args.model_save_path}.acc_tracker"
+    tracker_file = f"{args.model_path}.acc_tracker"
     global_best_acc = 0.0
     if os.path.exists(tracker_file):
         with open(tracker_file, 'r') as f:
@@ -177,9 +178,13 @@ def main():
             global_best_acc = val_accuracy
             print(f"New best validation accuracy ({global_best_acc:.4f})")
             print("Saving model weights\n")
-            save_model(nn, args.model_save_path)
+            best_weights = nn.get_weights()
+            np.save("best_model.npy", best_weights)
             with open(tracker_file, 'w') as f:
                 f.write(str(global_best_acc))
+            config_file = "best_config.json"
+            with open(config_file, 'w') as f:
+                json.dump(vars(args), f, indent=4)
     # Finish W&B run
     wandb.finish()
     print("\nTraining complete")

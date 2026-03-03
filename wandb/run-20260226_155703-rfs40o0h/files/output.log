@@ -1,0 +1,12 @@
+
+ Training with MOMENTUM
+Epoch 1 | Train Loss: 0.9956 | Val Acc: 0.7411
+Epoch 2 | Train Loss: 0.4921 | Val Acc: 0.8569
+Epoch 3 | Train Loss: 0.3833 | Val Acc: 0.8865
+Epoch 4 | Train Loss: 0.3342 | Val Acc: 0.9030
+Epoch 5 | Train Loss: 0.2975 | Val Acc: 0.9134
+Epoch 6 | Train Loss: 0.2676 | Val Acc: 0.9230
+Epoch 7 | Train Loss: 0.2418 | Val Acc: 0.9301
+Epoch 8 | Train Loss: 0.2192 | Val Acc: 0.9365
+Epoch 9 | Train Loss: 0.2000 | Val Acc: 0.9420
+Epoch 10 | Train Loss: 0.1833 | Val Acc: 0.9460

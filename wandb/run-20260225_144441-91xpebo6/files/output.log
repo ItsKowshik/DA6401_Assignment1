@@ -1,0 +1,9 @@
+Loading mnist dataset...
+Traceback (most recent call last):
+  File "G:\Semester_2\DL\Assignment_1\src\train.py", line 161, in <module>
+    main()
+    ~~~~^^
+  File "G:\Semester_2\DL\Assignment_1\src\train.py", line 101, in main
+    X_train, y_train, X_test, y_test = get_preprocessed_data(args.dataset)
+                                       ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_preprocessed_data' is not defined

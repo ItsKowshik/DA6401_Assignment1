@@ -1,0 +1,12 @@
+{"time":"2026-02-27T03:00:46.9791488+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-27T03:00:48.6854459+05:30","level":"INFO","msg":"stream: created new stream","id":"ze5pidm1"}
+{"time":"2026-02-27T03:00:48.6854459+05:30","level":"INFO","msg":"handler: started","stream_id":"ze5pidm1"}
+{"time":"2026-02-27T03:00:48.687794+05:30","level":"INFO","msg":"stream: started","id":"ze5pidm1"}
+{"time":"2026-02-27T03:00:48.6883215+05:30","level":"INFO","msg":"writer: started","stream_id":"ze5pidm1"}
+{"time":"2026-02-27T03:00:48.6883215+05:30","level":"INFO","msg":"sender: started","stream_id":"ze5pidm1"}
+{"time":"2026-02-27T03:01:07.631975+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-27T03:01:08.1571429+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-27T03:01:08.1730649+05:30","level":"INFO","msg":"stream: closing","id":"ze5pidm1"}
+{"time":"2026-02-27T03:01:08.1730649+05:30","level":"INFO","msg":"handler: closed","stream_id":"ze5pidm1"}
+{"time":"2026-02-27T03:01:08.1755241+05:30","level":"INFO","msg":"sender: closed","stream_id":"ze5pidm1"}
+{"time":"2026-02-27T03:01:08.1755241+05:30","level":"INFO","msg":"stream: closed","id":"ze5pidm1"}

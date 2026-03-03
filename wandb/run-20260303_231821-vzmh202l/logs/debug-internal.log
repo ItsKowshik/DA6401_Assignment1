@@ -1,0 +1,12 @@
+{"time":"2026-03-03T23:18:21.596717042+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-03T23:18:25.132487921+05:30","level":"INFO","msg":"stream: created new stream","id":"vzmh202l"}
+{"time":"2026-03-03T23:18:25.132691483+05:30","level":"INFO","msg":"handler: started","stream_id":"vzmh202l"}
+{"time":"2026-03-03T23:18:25.132832875+05:30","level":"INFO","msg":"stream: started","id":"vzmh202l"}
+{"time":"2026-03-03T23:18:25.132864827+05:30","level":"INFO","msg":"sender: started","stream_id":"vzmh202l"}
+{"time":"2026-03-03T23:18:25.132873255+05:30","level":"INFO","msg":"writer: started","stream_id":"vzmh202l"}
+{"time":"2026-03-03T23:18:45.700852716+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-03T23:18:47.04272136+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-03T23:18:47.051545139+05:30","level":"INFO","msg":"stream: closing","id":"vzmh202l"}
+{"time":"2026-03-03T23:18:47.051580126+05:30","level":"INFO","msg":"handler: closed","stream_id":"vzmh202l"}
+{"time":"2026-03-03T23:18:47.051688968+05:30","level":"INFO","msg":"sender: closed","stream_id":"vzmh202l"}
+{"time":"2026-03-03T23:18:47.051704828+05:30","level":"INFO","msg":"stream: closed","id":"vzmh202l"}

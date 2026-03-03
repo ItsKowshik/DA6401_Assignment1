@@ -1,0 +1,12 @@
+Loading mnist dataset
+Initializing Neural Network with 3 hidden layers
+Starting training
+Epoch 1/5 - Train Loss: 1.4499, Train Acc: 0.5314 - Val Loss: 1.4355, Val Acc: 0.6870
+Epoch 2/5 - Train Loss: 0.7490, Train Acc: 0.7534 - Val Loss: 0.7315, Val Acc: 0.8229
+Epoch 3/5 - Train Loss: 0.5500, Train Acc: 0.8384 - Val Loss: 0.5328, Val Acc: 0.8609
+Epoch 4/5 - Train Loss: 0.4595, Train Acc: 0.8654 - Val Loss: 0.4440, Val Acc: 0.8794
+Epoch 5/5 - Train Loss: 0.4093, Train Acc: 0.8820 - Val Loss: 0.3956, Val Acc: 0.8896
+New best validation accuracy (0.8896)
+Saving model weights
+
+Model successfully saved to best_model.npy

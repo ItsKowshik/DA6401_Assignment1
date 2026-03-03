@@ -1,0 +1,16 @@
+
+--- Testing SIGMOID across different depths ---
+Depth: 2 Layers | First Layer Grad Norm: 0.044525
+Depth: 3 Layers | First Layer Grad Norm: 0.006336
+Depth: 4 Layers | First Layer Grad Norm: 0.000903
+Depth: 5 Layers | First Layer Grad Norm: 0.000148
+Depth: 6 Layers | First Layer Grad Norm: 0.000016
+Depth: 7 Layers | First Layer Grad Norm: 0.000002
+
+--- Testing RELU across different depths ---
+Depth: 2 Layers | First Layer Grad Norm: 1.699981
+Depth: 3 Layers | First Layer Grad Norm: 1.493574
+Depth: 4 Layers | First Layer Grad Norm: 1.548524
+Depth: 5 Layers | First Layer Grad Norm: 1.523636
+Depth: 6 Layers | First Layer Grad Norm: 1.313825
+Depth: 7 Layers | First Layer Grad Norm: 1.227470

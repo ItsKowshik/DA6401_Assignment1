@@ -1,0 +1,52 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.13.5",
+  "startedAt":  "2026-02-26T21:22:55.597142Z",
+  "args":  [
+    "--activation=tanh",
+    "--batch_size=16",
+    "--dataset=mnist",
+    "--epochs=5",
+    "--hidden_layers=1",
+    "--learning_rate=0.003881592663887544",
+    "--loss=cross_entropy",
+    "--num_neurons=128",
+    "--optimizer=rmsprop",
+    "--weight_init=xavier"
+  ],
+  "program":  "G:\\Semester_2\\DL\\Assignment_1\\src\\train.py",
+  "codePath":  "src\\train.py",
+  "codePathLocal":  "src\\train.py",
+  "git":  {
+    "remote":  "https://github.com/ItsKowshik/DA6401_Assignment1.git",
+    "commit":  "7c1f401865dc249c39e48c9e3d1afa6c313b6b4f"
+  },
+  "email":  "kowshikisme@gmail.com",
+  "root":  "G:\\Semester_2\\DL\\Assignment_1",
+  "host":  "ItsKowshik",
+  "executable":  "C:\\Users\\deyko\\anaconda3\\python.exe",
+  "cpu_count":  10,
+  "cpu_count_logical":  16,
+  "gpu":  "NVIDIA GeForce RTX 5050 Laptop GPU",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "105853743104",
+      "used":  "1109921792"
+    }
+  },
+  "memory":  {
+    "total":  "16763670528"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 5050 Laptop GPU",
+      "memoryTotal":  "8546942976",
+      "cudaCores":  2560,
+      "architecture":  "Blackwell",
+      "uuid":  "GPU-f7efdbb2-8b5c-34e0-69c3-d8b8a8e85300"
+    }
+  ],
+  "cudaVersion":  "13.1",
+  "writerId":  "wu1k9rjgvpjtjl1tc8obgiraebeuzqzz"
+}

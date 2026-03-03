@@ -1,0 +1,18 @@
+
+ Training MNIST BASELINE on Fashion-MNIST
+Epoch 1 | Train Loss: 0.4596 | Val Acc: 0.8220
+Epoch 2 | Train Loss: 0.3677 | Val Acc: 0.8496
+Epoch 3 | Train Loss: 0.3345 | Val Acc: 0.8644
+Epoch 4 | Train Loss: 0.3061 | Val Acc: 0.8710
+Epoch 5 | Train Loss: 0.3054 | Val Acc: 0.8671
+Epoch 6 | Train Loss: 0.2930 | Val Acc: 0.8712
+Epoch 7 | Train Loss: 0.2880 | Val Acc: 0.8719
+Epoch 8 | Train Loss: 0.2723 | Val Acc: 0.8755
+Epoch 9 | Train Loss: 0.2673 | Val Acc: 0.8737
+Epoch 10 | Train Loss: 0.2557 | Val Acc: 0.8762
+Epoch 11 | Train Loss: 0.2430 | Val Acc: 0.8767
+Epoch 12 | Train Loss: 0.2388 | Val Acc: 0.8760
+Epoch 13 | Train Loss: 0.2326 | Val Acc: 0.8759
+Epoch 14 | Train Loss: 0.2306 | Val Acc: 0.8773
+Epoch 15 | Train Loss: 0.2360 | Val Acc: 0.8755
+ Best Validation Accuracy for MNIST Baseline: 0.8773

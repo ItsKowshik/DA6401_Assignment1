@@ -32,6 +32,9 @@ class Layer:
             self.b = np.zeros((1, output_size))
         # Xavier Initialization
         # Formula: sqrt(2.0 / (input_size + output_size))
+        elif weight_init == 'he':
+            self.W = np.random.randn(input_size, output_size) * np.sqrt(2.0 / input_size)
+            self.b = np.zeros((1, output_size))
         elif weight_init == 'xavier':
             limit = np.sqrt(2.0 / (input_size + output_size))
             self.W = np.random.uniform(-limit, limit, (input_size, output_size))

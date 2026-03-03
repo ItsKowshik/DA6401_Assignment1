@@ -20,3 +20,5 @@ For questions or issues, please contact the teaching staff or post on the course
 ---
 
 Good luck with your implementation!
+
+ https://wandb.ai/kowshikisme-indian-institute-of-technology-madras/da6401-assignment-1/runs/bhrxqfhy

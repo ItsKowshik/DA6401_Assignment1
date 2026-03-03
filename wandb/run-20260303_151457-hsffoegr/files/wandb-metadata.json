@@ -1,0 +1,39 @@
+{
+  "os":  "Linux-6.17.0-14-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.13.11",
+  "startedAt":  "2026-03-03T09:44:57.801836Z",
+  "args":  [
+    "--dataset",
+    "mnist",
+    "--epochs",
+    "10",
+    "-b",
+    "64",
+    "-nhl",
+    "3",
+    "-sz",
+    "128",
+    "128",
+    "128",
+    "-a",
+    "relu",
+    "-wi",
+    "xavier",
+    "-o",
+    "rmsprop",
+    "-lr",
+    "0.001"
+  ],
+  "program":  "/home/kowshik/Old_G/Semester_2/DL/Assignment_1/src/train.py",
+  "codePath":  "src/train.py",
+  "codePathLocal":  "src/train.py",
+  "git":  {
+    "remote":  "https://github.com/ItsKowshik/DA6401_Assignment1.git",
+    "commit":  "7c1f401865dc249c39e48c9e3d1afa6c313b6b4f"
+  },
+  "email":  "kowshikisme@gmail.com",
+  "root":  "/home/kowshik/Old_G/Semester_2/DL/Assignment_1",
+  "host":  "ItsKowshik07",
+  "executable":  "/home/kowshik/miniconda3/bin/python",
+  "writerId":  "j0d469s6j0450r6x0dxhh33urgts8pcx"
+}

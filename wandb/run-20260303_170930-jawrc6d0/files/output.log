@@ -1,0 +1,10 @@
+
+ Training with RELU
+Traceback (most recent call last):
+  File "/home/kowshik/Old_G/Semester_2/DL/Assignment_1/src/dead_neuron.py", line 75, in <module>
+    run_activation_experiment(act, X_train, y_train, X_test, y_test)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kowshik/Old_G/Semester_2/DL/Assignment_1/src/dead_neuron.py", line 48, in run_activation_experiment
+    first_layer_A = nn.layers[0].A
+                    ^^^^^^^^^^^^^^
+AttributeError: 'Layer' object has no attribute 'A'

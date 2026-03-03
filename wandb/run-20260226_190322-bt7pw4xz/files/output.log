@@ -1,0 +1,15 @@
+
+ Training with MSE
+Traceback (most recent call last):
+  File "G:\Semester_2\DL\Assignment_1\src\loss_comparison.py", line 104, in <module>
+    run_loss_experiment(loss, X_train, y_train, X_test, y_test)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Semester_2\DL\Assignment_1\src\loss_comparison.py", line 81, in run_loss_experiment
+    grads = nn.backward(y_batch, y_pred)
+  File "G:\Semester_2\DL\Assignment_1\src\ann\neural_network.py", line 83, in backward
+    dX, dW, db = self.layers[-1].backward(dA=dA)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "G:\Semester_2\DL\Assignment_1\src\ann\neural_layer.py", line 113, in backward
+    dZ = dA * self.act_deriv(Z)
+              ~~~~~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not callable

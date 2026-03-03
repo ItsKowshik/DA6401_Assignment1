@@ -1,0 +1,12 @@
+{"time":"2026-02-26T16:50:47.9753393+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-26T16:50:49.6300564+05:30","level":"INFO","msg":"stream: created new stream","id":"py4j3jck"}
+{"time":"2026-02-26T16:50:49.6300564+05:30","level":"INFO","msg":"handler: started","stream_id":"py4j3jck"}
+{"time":"2026-02-26T16:50:49.6317016+05:30","level":"INFO","msg":"stream: started","id":"py4j3jck"}
+{"time":"2026-02-26T16:50:49.6317016+05:30","level":"INFO","msg":"writer: started","stream_id":"py4j3jck"}
+{"time":"2026-02-26T16:50:49.6317016+05:30","level":"INFO","msg":"sender: started","stream_id":"py4j3jck"}
+{"time":"2026-02-26T16:51:39.2846068+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-26T16:51:39.7079798+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-26T16:51:39.7144358+05:30","level":"INFO","msg":"stream: closing","id":"py4j3jck"}
+{"time":"2026-02-26T16:51:39.7144358+05:30","level":"INFO","msg":"handler: closed","stream_id":"py4j3jck"}
+{"time":"2026-02-26T16:51:39.7160823+05:30","level":"INFO","msg":"sender: closed","stream_id":"py4j3jck"}
+{"time":"2026-02-26T16:51:39.7160823+05:30","level":"INFO","msg":"stream: closed","id":"py4j3jck"}

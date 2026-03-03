@@ -1,0 +1,5 @@
+
+ Tracking Gradients for SIGMOID
+Epoch 1 complete. Current Grad Norm: 0.296762
+Epoch 2 complete. Current Grad Norm: 0.248708
+Epoch 3 complete. Current Grad Norm: 0.185811

@@ -1,0 +1,12 @@
+{"time":"2026-02-27T01:28:45.2425952+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-27T01:28:47.0573959+05:30","level":"INFO","msg":"stream: created new stream","id":"giw1jonn"}
+{"time":"2026-02-27T01:28:47.0579932+05:30","level":"INFO","msg":"handler: started","stream_id":"giw1jonn"}
+{"time":"2026-02-27T01:28:47.0605686+05:30","level":"INFO","msg":"stream: started","id":"giw1jonn"}
+{"time":"2026-02-27T01:28:47.0612812+05:30","level":"INFO","msg":"writer: started","stream_id":"giw1jonn"}
+{"time":"2026-02-27T01:28:47.0612812+05:30","level":"INFO","msg":"sender: started","stream_id":"giw1jonn"}
+{"time":"2026-02-27T01:29:10.7387046+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-27T01:29:11.2270481+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-27T01:29:11.2443938+05:30","level":"INFO","msg":"stream: closing","id":"giw1jonn"}
+{"time":"2026-02-27T01:29:11.2443938+05:30","level":"INFO","msg":"handler: closed","stream_id":"giw1jonn"}
+{"time":"2026-02-27T01:29:11.2470207+05:30","level":"INFO","msg":"sender: closed","stream_id":"giw1jonn"}
+{"time":"2026-02-27T01:29:11.2470207+05:30","level":"INFO","msg":"stream: closed","id":"giw1jonn"}

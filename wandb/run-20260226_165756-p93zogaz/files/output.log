@@ -1,0 +1,9 @@
+Loading mnist dataset
+Initializing Neural Network with 2 hidden layers
+Loaded previous global best accuracy: 0.9793
+Starting training
+Epoch 1/5 - Train Loss: 0.1092, Train Acc: 0.9174 - Val Loss: 0.1224, Val Acc: 0.9629
+Epoch 2/5 - Train Loss: 0.0759, Train Acc: 0.9667 - Val Loss: 0.1081, Val Acc: 0.9674
+Epoch 3/5 - Train Loss: 0.0590, Train Acc: 0.9746 - Val Loss: 0.0984, Val Acc: 0.9704
+Epoch 4/5 - Train Loss: 0.0528, Train Acc: 0.9798 - Val Loss: 0.1054, Val Acc: 0.9713
+Epoch 5/5 - Train Loss: 0.0422, Train Acc: 0.9827 - Val Loss: 0.1004, Val Acc: 0.9732

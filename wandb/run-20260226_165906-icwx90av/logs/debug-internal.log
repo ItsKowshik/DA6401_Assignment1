@@ -1,0 +1,12 @@
+{"time":"2026-02-26T16:59:09.0840975+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-26T16:59:10.2674956+05:30","level":"INFO","msg":"stream: created new stream","id":"icwx90av"}
+{"time":"2026-02-26T16:59:10.2680014+05:30","level":"INFO","msg":"handler: started","stream_id":"icwx90av"}
+{"time":"2026-02-26T16:59:10.2699668+05:30","level":"INFO","msg":"stream: started","id":"icwx90av"}
+{"time":"2026-02-26T16:59:10.2699668+05:30","level":"INFO","msg":"writer: started","stream_id":"icwx90av"}
+{"time":"2026-02-26T16:59:10.2699668+05:30","level":"INFO","msg":"sender: started","stream_id":"icwx90av"}
+{"time":"2026-02-26T16:59:35.9756555+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-26T16:59:36.4169895+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-26T16:59:36.431884+05:30","level":"INFO","msg":"stream: closing","id":"icwx90av"}
+{"time":"2026-02-26T16:59:36.431884+05:30","level":"INFO","msg":"handler: closed","stream_id":"icwx90av"}
+{"time":"2026-02-26T16:59:36.4341969+05:30","level":"INFO","msg":"sender: closed","stream_id":"icwx90av"}
+{"time":"2026-02-26T16:59:36.4341969+05:30","level":"INFO","msg":"stream: closed","id":"icwx90av"}

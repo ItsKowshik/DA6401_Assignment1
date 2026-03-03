@@ -16,7 +16,11 @@ def mse(y_true, y_pred):
     Returns:
         float: Average MSE loss
     """
-    return np.mean(np.square(y_pred - y_true))
+    m = y_true.shape[0]
+    # Calculate the squared differences, sum them, and divide by m
+    loss = np.sum((y_true - y_pred) ** 2) / m
+    
+    return loss
 
 def cross_entropy(y_true, y_pred):
     """
@@ -32,8 +36,10 @@ def cross_entropy(y_true, y_pred):
     epsilon = 1e-15
     y_pred_clipped = np.clip(y_pred, epsilon, 1.0 - epsilon)
     # Calculate loss per sample, then average over the batch
-    sample_losses = -np.sum(y_true * np.log(y_pred_clipped), axis=1)
-    return np.mean(sample_losses)
+    m = y_true.shape[0]
+    loss = -np.sum(y_true * np.log(y_pred_clipped)) / m
+    
+    return loss
 
 def mse_derivative(y_true, y_pred):
     """
@@ -46,6 +52,7 @@ def mse_derivative(y_true, y_pred):
     Returns:
         float: Average MSE loss
     """
+    # The derivative of MSE with respect to the predictions is 2 * (y_pred - y_true) / number of samples
     return 2 * (y_pred - y_true) / y_true.size
 
 def cross_entropy_derivative(y_true, y_pred):
@@ -58,6 +65,7 @@ def cross_entropy_derivative(y_true, y_pred):
     Returns:
         float: Average cross-entropy loss
     """
+    # To prevent division by zero, we clip the predicted probabilities
     epsilon = 1e-15
     y_pred_clipped = np.clip(y_pred, epsilon, 1.0 - epsilon)
     return - (y_true / y_pred_clipped) / y_true.shape[0]

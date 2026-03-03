@@ -1,0 +1,13 @@
+{"time":"2026-02-27T00:37:33.2759494+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-27T00:37:38.7651061+05:30","level":"INFO","msg":"stream: created new stream","id":"z02mcd3q"}
+{"time":"2026-02-27T00:37:38.7651061+05:30","level":"INFO","msg":"handler: started","stream_id":"z02mcd3q"}
+{"time":"2026-02-27T00:37:38.7702096+05:30","level":"INFO","msg":"stream: started","id":"z02mcd3q"}
+{"time":"2026-02-27T00:37:38.7702096+05:30","level":"INFO","msg":"writer: started","stream_id":"z02mcd3q"}
+{"time":"2026-02-27T00:37:38.7702096+05:30","level":"INFO","msg":"sender: started","stream_id":"z02mcd3q"}
+{"time":"2026-02-27T00:38:43.5055102+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-27T00:39:25.4395908+05:30","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/kowshikisme-indian-institute-of-technology-madras/da6401-assignment-1/z02mcd3q/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2026-02-27T00:39:31.1754082+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-27T00:39:31.1920605+05:30","level":"INFO","msg":"stream: closing","id":"z02mcd3q"}
+{"time":"2026-02-27T00:39:31.1920605+05:30","level":"INFO","msg":"handler: closed","stream_id":"z02mcd3q"}
+{"time":"2026-02-27T00:39:31.1945263+05:30","level":"INFO","msg":"sender: closed","stream_id":"z02mcd3q"}
+{"time":"2026-02-27T00:39:31.1945263+05:30","level":"INFO","msg":"stream: closed","id":"z02mcd3q"}

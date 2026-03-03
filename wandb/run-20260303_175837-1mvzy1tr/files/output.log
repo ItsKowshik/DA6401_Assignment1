@@ -1,0 +1,12 @@
+Loading test data
+Building model and loading weights
+Running inference
+Generating Confusion Matrix
+Generating Class-wise Accuracy Bar Chart
+/home/kowshik/Old_G/Semester_2/DL/Assignment_1/src/error_analysis.py:101: FutureWarning:
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=np.arange(10), y=class_accuracies, palette="viridis")
+Generating Confidence Distribution Histogram
+Hunting down genuine high-confidence failures...

@@ -1,0 +1,17 @@
+{"time":"2026-02-26T15:10:04.4103419+05:30","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\deyko\\AppData\\Local\\Temp\\tmp05ukdesj\\port-11576.txt","pid":11576,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2026-02-26T15:10:04.4132815+05:30","level":"INFO","msg":"server: accepting connections","addr":{"IP":"127.0.0.1","Port":64946,"Zone":""}}
+{"time":"2026-02-26T15:10:04.4138599+05:30","level":"INFO","msg":"server: will exit if parent process dies","ppid":11576}
+{"time":"2026-02-26T15:10:04.4138599+05:30","level":"INFO","msg":"server: accepting connections","addr":{"Name":"C:\\Users\\deyko\\AppData\\Local\\Temp\\wandb-11576-25928-1628814835\\socket","Net":"unix"}}
+{"time":"2026-02-26T15:10:06.6248363+05:30","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(127.0.0.1:58770)"}
+{"time":"2026-02-26T15:10:06.6619215+05:30","level":"INFO","msg":"handleInformInit: received","streamId":"yxyqn3ez","id":"1(127.0.0.1:58770)"}
+{"time":"2026-02-26T15:10:07.6117873+05:30","level":"INFO","msg":"handleInformInit: stream started","streamId":"yxyqn3ez","id":"1(127.0.0.1:58770)"}
+{"time":"2026-02-26T15:10:13.9193649+05:30","level":"INFO","msg":"connection: cancelling request","id":"1(127.0.0.1:58770)","requestId":"c7vdjtr70qe3"}
+{"time":"2026-02-26T15:10:35.3879837+05:30","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"1(127.0.0.1:58770)"}
+{"time":"2026-02-26T15:10:35.3885444+05:30","level":"INFO","msg":"server is shutting down"}
+{"time":"2026-02-26T15:10:35.3885444+05:30","level":"INFO","msg":"connection: closing","id":"1(127.0.0.1:58770)"}
+{"time":"2026-02-26T15:10:35.3885444+05:30","level":"INFO","msg":"connection: closed successfully","id":"1(127.0.0.1:58770)"}
+{"time":"2026-02-26T15:10:35.3885444+05:30","level":"INFO","msg":"server: listener closed","addr":{"Name":"C:\\Users\\deyko\\AppData\\Local\\Temp\\wandb-11576-25928-1628814835\\socket","Net":"unix"}}
+{"time":"2026-02-26T15:10:35.3885444+05:30","level":"INFO","msg":"server: listener closed","addr":{"IP":"127.0.0.1","Port":64946,"Zone":""}}
+{"time":"2026-02-26T15:10:36.6658652+05:30","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"1(127.0.0.1:58770)"}
+{"time":"2026-02-26T15:10:36.6658652+05:30","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"1(127.0.0.1:58770)"}
+{"time":"2026-02-26T15:10:36.6658652+05:30","level":"INFO","msg":"server is closed"}

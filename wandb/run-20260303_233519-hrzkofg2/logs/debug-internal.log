@@ -1,0 +1,15 @@
+{"time":"2026-03-03T23:35:20.229098185+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-03T23:35:22.795389484+05:30","level":"INFO","msg":"stream: created new stream","id":"hrzkofg2"}
+{"time":"2026-03-03T23:35:22.79554951+05:30","level":"INFO","msg":"handler: started","stream_id":"hrzkofg2"}
+{"time":"2026-03-03T23:35:22.79569199+05:30","level":"INFO","msg":"stream: started","id":"hrzkofg2"}
+{"time":"2026-03-03T23:35:22.795747284+05:30","level":"INFO","msg":"writer: started","stream_id":"hrzkofg2"}
+{"time":"2026-03-03T23:35:22.795805911+05:30","level":"INFO","msg":"sender: started","stream_id":"hrzkofg2"}
+{"time":"2026-03-03T23:35:36.432471094+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-03T23:37:07.769595606+05:30","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/kowshikisme-indian-institute-of-technology-madras/dl_1/hrzkofg2/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2026-03-03T23:38:11.483661771+05:30","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/kowshikisme-indian-institute-of-technology-madras/dl_1/hrzkofg2/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2026-03-03T23:39:42.715698168+05:30","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/kowshikisme-indian-institute-of-technology-madras/dl_1/hrzkofg2/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2026-03-03T23:41:21.848615591+05:30","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/kowshikisme-indian-institute-of-technology-madras/dl_1/hrzkofg2/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2026-03-03T23:42:38.506821372+05:30","level":"INFO","msg":"stream: closing","id":"hrzkofg2"}
+{"time":"2026-03-03T23:42:38.507039001+05:30","level":"ERROR","msg":"sender: sendSummary called after exit"}
+{"time":"2026-03-03T23:42:38.507805799+05:30","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2026-03-03T23:43:20.335565917+05:30","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/kowshikisme-indian-institute-of-technology-madras/dl_1/hrzkofg2/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}

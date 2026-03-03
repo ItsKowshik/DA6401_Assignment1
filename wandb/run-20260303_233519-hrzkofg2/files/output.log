@@ -1,0 +1,7 @@
+
+ Training with RELU
+Epoch 1 | Train Loss: 2.3014 | Val Acc: 0.1028 | Dead/Sat Neurons: 17.2%
+Epoch 2 | Train Loss: 2.3014 | Val Acc: 0.1028 | Dead/Sat Neurons: 14.6%
+Epoch 3 | Train Loss: 2.3010 | Val Acc: 0.1028 | Dead/Sat Neurons: 15.6%
+Epoch 4 | Train Loss: 1.0486 | Val Acc: 0.6439 | Dead/Sat Neurons: 5.7%
+Epoch 5 | Train Loss: 0.3869 | Val Acc: 0.8974 | Dead/Sat Neurons: 4.7%

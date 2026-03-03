@@ -1,0 +1,12 @@
+
+ Training with CROSS_ENTROPY
+Epoch 1 | Train Loss: 0.1945 | Val Acc: 0.9416
+Epoch 2 | Train Loss: 0.1285 | Val Acc: 0.9595
+Epoch 3 | Train Loss: 0.0995 | Val Acc: 0.9642
+Epoch 4 | Train Loss: 0.0808 | Val Acc: 0.9673
+Epoch 5 | Train Loss: 0.0678 | Val Acc: 0.9685
+Epoch 6 | Train Loss: 0.0618 | Val Acc: 0.9688
+Epoch 7 | Train Loss: 0.0595 | Val Acc: 0.9682
+Epoch 8 | Train Loss: 0.0671 | Val Acc: 0.9621
+Epoch 9 | Train Loss: 0.0567 | Val Acc: 0.9636
+Epoch 10 | Train Loss: 0.0495 | Val Acc: 0.9662

@@ -1,0 +1,12 @@
+{"time":"2026-02-27T02:19:57.3503104+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-27T02:19:59.0189312+05:30","level":"INFO","msg":"stream: created new stream","id":"doe68jgm"}
+{"time":"2026-02-27T02:19:59.01974+05:30","level":"INFO","msg":"handler: started","stream_id":"doe68jgm"}
+{"time":"2026-02-27T02:19:59.0214945+05:30","level":"INFO","msg":"stream: started","id":"doe68jgm"}
+{"time":"2026-02-27T02:19:59.0221295+05:30","level":"INFO","msg":"writer: started","stream_id":"doe68jgm"}
+{"time":"2026-02-27T02:19:59.0221295+05:30","level":"INFO","msg":"sender: started","stream_id":"doe68jgm"}
+{"time":"2026-02-27T02:21:08.8283634+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-27T02:21:09.289756+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-27T02:21:09.3064209+05:30","level":"INFO","msg":"stream: closing","id":"doe68jgm"}
+{"time":"2026-02-27T02:21:09.3064209+05:30","level":"INFO","msg":"handler: closed","stream_id":"doe68jgm"}
+{"time":"2026-02-27T02:21:09.3087026+05:30","level":"INFO","msg":"sender: closed","stream_id":"doe68jgm"}
+{"time":"2026-02-27T02:21:09.3087026+05:30","level":"INFO","msg":"stream: closed","id":"doe68jgm"}

@@ -1,0 +1,12 @@
+{"time":"2026-02-26T16:07:52.8083609+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-26T16:07:54.1666608+05:30","level":"INFO","msg":"stream: created new stream","id":"sy2ditm9"}
+{"time":"2026-02-26T16:07:54.1666608+05:30","level":"INFO","msg":"handler: started","stream_id":"sy2ditm9"}
+{"time":"2026-02-26T16:07:54.1702127+05:30","level":"INFO","msg":"stream: started","id":"sy2ditm9"}
+{"time":"2026-02-26T16:07:54.1709202+05:30","level":"INFO","msg":"writer: started","stream_id":"sy2ditm9"}
+{"time":"2026-02-26T16:07:54.1719472+05:30","level":"INFO","msg":"sender: started","stream_id":"sy2ditm9"}
+{"time":"2026-02-26T16:10:29.9123802+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-26T16:10:30.3683222+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-26T16:10:30.3923726+05:30","level":"INFO","msg":"stream: closing","id":"sy2ditm9"}
+{"time":"2026-02-26T16:10:30.3923726+05:30","level":"INFO","msg":"handler: closed","stream_id":"sy2ditm9"}
+{"time":"2026-02-26T16:10:30.3947751+05:30","level":"INFO","msg":"sender: closed","stream_id":"sy2ditm9"}
+{"time":"2026-02-26T16:10:30.3947751+05:30","level":"INFO","msg":"stream: closed","id":"sy2ditm9"}

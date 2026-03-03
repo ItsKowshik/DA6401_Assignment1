@@ -1,0 +1,14 @@
+Loading mnist dataset
+Initializing Neural Network with 3 hidden layers
+Starting training
+Traceback (most recent call last):
+  File "/home/kowshik/Old_G/Semester_2/DL/Assignment_1/src/train.py", line 186, in <module>
+    main()
+    ~~~~^^
+  File "/home/kowshik/Old_G/Semester_2/DL/Assignment_1/src/train.py", line 153, in main
+    val_loss, val_accuracy = nn.evaluate(X_test, y_test)
+                             ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home/kowshik/Old_G/Semester_2/DL/Assignment_1/src/ann/neural_network.py", line 184, in evaluate
+    if self.loss_name == 'cross_entropy':
+       ^^^^^^^^^^^^^^
+AttributeError: 'NeuralNetwork' object has no attribute 'loss_name'

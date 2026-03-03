@@ -1,0 +1,22 @@
+wandb_version: 1
+
+activation:
+  value: relu
+batch_size:
+  value: 32
+dataset:
+  value: mnist
+epochs:
+  value: 5
+hidden_layers:
+  value: 2
+learning_rate:
+  value: 0.006684062297216807
+loss:
+  value: cross_entropy
+num_neurons:
+  value: 128
+optimizer:
+  value: rmsprop
+weight_init:
+  value: xavier

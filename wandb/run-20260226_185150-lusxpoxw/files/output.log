@@ -1,0 +1,12 @@
+
+ Tracking Dead Neurons for TANH
+Epoch 1 | Dead Neurons: 0.0% | Val Acc: 0.9430
+Epoch 2 | Dead Neurons: 0.0% | Val Acc: 0.9468
+Epoch 3 | Dead Neurons: 0.0% | Val Acc: 0.9564
+Epoch 4 | Dead Neurons: 0.0% | Val Acc: 0.9604
+Epoch 5 | Dead Neurons: 0.0% | Val Acc: 0.9630
+Epoch 6 | Dead Neurons: 0.0% | Val Acc: 0.9639
+Epoch 7 | Dead Neurons: 0.0% | Val Acc: 0.9626
+Epoch 8 | Dead Neurons: 0.0% | Val Acc: 0.9660
+Epoch 9 | Dead Neurons: 0.0% | Val Acc: 0.9683
+Epoch 10 | Dead Neurons: 0.0% | Val Acc: 0.9652

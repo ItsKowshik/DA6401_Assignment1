@@ -1,0 +1,21 @@
+2026-03-03 15:58:40,488 INFO    MainThread:191409 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /home/kowshik/Old_G/Semester_2/DL/Assignment_1/wandb/run-20260303_155840-maeze55u/logs/debug.log
+2026-03-03 15:58:40,488 INFO    MainThread:191409 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /home/kowshik/Old_G/Semester_2/DL/Assignment_1/wandb/run-20260303_155840-maeze55u/logs/debug-internal.log
+2026-03-03 15:58:40,488 INFO    MainThread:191409 [wandb_init.py:init():844] calling init triggers
+2026-03-03 15:58:40,488 INFO    MainThread:191409 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'dataset': 'mnist', 'epochs': 10, 'batch_size': 64, 'learning_rate': 0.001, 'optimizer': 'momentum', 'num_layers': 3, 'hidden_size': [128, 128, 128], 'activation': 'relu', 'weight_init': 'xavier', 'loss': 'cross_entropy', 'wandb_project': 'dl_1', '_wandb': {}}
+2026-03-03 15:58:40,488 INFO    MainThread:191409 [wandb_init.py:init():892] starting backend
+2026-03-03 15:58:40,488 INFO    MainThread:191409 [wandb_init.py:init():895] sending inform_init request
+2026-03-03 15:58:40,490 INFO    MainThread:191409 [wandb_init.py:init():903] backend started and connected
+2026-03-03 15:58:40,492 INFO    MainThread:191409 [wandb_init.py:init():973] updated telemetry
+2026-03-03 15:58:40,498 INFO    MainThread:191409 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-03-03 15:58:41,612 INFO    MainThread:191409 [wandb_init.py:init():1042] starting run threads in backend
+2026-03-03 15:58:41,729 INFO    MainThread:191409 [wandb_run.py:_console_start():2524] atexit reg
+2026-03-03 15:58:41,729 INFO    MainThread:191409 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-03-03 15:58:41,729 INFO    MainThread:191409 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-03-03 15:58:41,729 INFO    MainThread:191409 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-03-03 15:58:41,730 INFO    MainThread:191409 [wandb_init.py:init():1082] run started, returning control to user process
+2026-03-03 15:58:55,460 INFO    MainThread:191409 [wandb_run.py:_finish():2291] finishing run kowshikisme-indian-institute-of-technology-madras/dl_1/maeze55u
+2026-03-03 15:58:55,461 INFO    MainThread:191409 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-03-03 15:58:55,461 INFO    MainThread:191409 [wandb_run.py:_restore():2472] restore
+2026-03-03 15:58:55,461 INFO    MainThread:191409 [wandb_run.py:_restore():2478] restore done
+2026-03-03 15:58:57,081 INFO    MainThread:191409 [wandb_run.py:_footer_sync_info():3868] logging synced files

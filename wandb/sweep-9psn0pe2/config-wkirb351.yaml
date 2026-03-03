@@ -1,0 +1,22 @@
+wandb_version: 1
+
+activation:
+  value: tanh
+batch_size:
+  value: 32
+dataset:
+  value: mnist
+epochs:
+  value: 10
+hidden_layers:
+  value: 2
+learning_rate:
+  value: 0.0010215106159469256
+loss:
+  value: cross_entropy
+num_neurons:
+  value: 128
+optimizer:
+  value: rmsprop
+weight_init:
+  value: random

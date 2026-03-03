@@ -1,0 +1,18 @@
+
+ Training CONFIG_2_DEEP_HIERARCHY on Fashion-MNIST
+Epoch 1 | Train Loss: 0.4157 | Val Acc: 0.8277
+Epoch 2 | Train Loss: 0.3572 | Val Acc: 0.8511
+Epoch 3 | Train Loss: 0.3298 | Val Acc: 0.8598
+Epoch 4 | Train Loss: 0.3159 | Val Acc: 0.8626
+Epoch 5 | Train Loss: 0.3027 | Val Acc: 0.8667
+Epoch 6 | Train Loss: 0.3255 | Val Acc: 0.8591
+Epoch 7 | Train Loss: 0.3563 | Val Acc: 0.8470
+Epoch 8 | Train Loss: 0.2937 | Val Acc: 0.8673
+Epoch 9 | Train Loss: 0.3197 | Val Acc: 0.8604
+Epoch 10 | Train Loss: 0.3702 | Val Acc: 0.8459
+Epoch 11 | Train Loss: 0.2754 | Val Acc: 0.8696
+Epoch 12 | Train Loss: 0.2800 | Val Acc: 0.8714
+Epoch 13 | Train Loss: 0.3008 | Val Acc: 0.8702
+Epoch 14 | Train Loss: 0.2738 | Val Acc: 0.8715
+Epoch 15 | Train Loss: 0.2697 | Val Acc: 0.8672
+ Best Validation Accuracy for Config_2_Deep_Hierarchy: 0.8715

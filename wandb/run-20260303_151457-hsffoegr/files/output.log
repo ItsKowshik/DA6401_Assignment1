@@ -1,0 +1,15 @@
+Loading mnist dataset
+Initializing Neural Network with 3 hidden layers
+Starting training
+Traceback (most recent call last):
+  File "/home/kowshik/Old_G/Semester_2/DL/Assignment_1/src/train.py", line 186, in <module>
+    main()
+    ~~~~^^
+  File "/home/kowshik/Old_G/Semester_2/DL/Assignment_1/src/train.py", line 141, in main
+    y_pred = nn.forward(X_batch)
+  File "/home/kowshik/Old_G/Semester_2/DL/Assignment_1/src/ann/neural_network.py", line 61, in forward
+    _ = self.layers[-1].forward(A)
+  File "/home/kowshik/Old_G/Semester_2/DL/Assignment_1/src/ann/neural_layer.py", line 84, in forward
+    Z = np.dot(X, self.W) + self.b
+        ~~~~~~^^^^^^^^^^^
+ValueError: shapes (64,10) and (128,10) not aligned: 10 (dim 1) != 128 (dim 0)

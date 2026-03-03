@@ -1,0 +1,12 @@
+{"time":"2026-02-26T18:35:32.9777801+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-26T18:35:34.6479922+05:30","level":"INFO","msg":"stream: created new stream","id":"sum9mpp2"}
+{"time":"2026-02-26T18:35:34.6503625+05:30","level":"INFO","msg":"handler: started","stream_id":"sum9mpp2"}
+{"time":"2026-02-26T18:35:34.6529128+05:30","level":"INFO","msg":"stream: started","id":"sum9mpp2"}
+{"time":"2026-02-26T18:35:34.6529128+05:30","level":"INFO","msg":"writer: started","stream_id":"sum9mpp2"}
+{"time":"2026-02-26T18:35:34.6529128+05:30","level":"INFO","msg":"sender: started","stream_id":"sum9mpp2"}
+{"time":"2026-02-26T18:37:00.4733923+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-26T18:37:01.4479084+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-26T18:37:01.4554666+05:30","level":"INFO","msg":"stream: closing","id":"sum9mpp2"}
+{"time":"2026-02-26T18:37:01.4554666+05:30","level":"INFO","msg":"handler: closed","stream_id":"sum9mpp2"}
+{"time":"2026-02-26T18:37:01.4573562+05:30","level":"INFO","msg":"sender: closed","stream_id":"sum9mpp2"}
+{"time":"2026-02-26T18:37:01.4573562+05:30","level":"INFO","msg":"stream: closed","id":"sum9mpp2"}

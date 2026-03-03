@@ -1,0 +1,12 @@
+{"time":"2026-02-27T02:38:52.4796135+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-27T02:38:54.3147595+05:30","level":"INFO","msg":"stream: created new stream","id":"cgit8b1z"}
+{"time":"2026-02-27T02:38:54.3147595+05:30","level":"INFO","msg":"handler: started","stream_id":"cgit8b1z"}
+{"time":"2026-02-27T02:38:54.3173029+05:30","level":"INFO","msg":"stream: started","id":"cgit8b1z"}
+{"time":"2026-02-27T02:38:54.3173029+05:30","level":"INFO","msg":"writer: started","stream_id":"cgit8b1z"}
+{"time":"2026-02-27T02:38:54.3173029+05:30","level":"INFO","msg":"sender: started","stream_id":"cgit8b1z"}
+{"time":"2026-02-27T02:39:52.6590183+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-27T02:39:53.1637033+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-27T02:39:53.1758617+05:30","level":"INFO","msg":"stream: closing","id":"cgit8b1z"}
+{"time":"2026-02-27T02:39:53.1758617+05:30","level":"INFO","msg":"handler: closed","stream_id":"cgit8b1z"}
+{"time":"2026-02-27T02:39:53.1786045+05:30","level":"INFO","msg":"sender: closed","stream_id":"cgit8b1z"}
+{"time":"2026-02-27T02:39:53.1786045+05:30","level":"INFO","msg":"stream: closed","id":"cgit8b1z"}

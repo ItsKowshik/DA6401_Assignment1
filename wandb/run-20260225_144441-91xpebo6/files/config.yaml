@@ -1,0 +1,68 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            uo11u7js01jfxc2pza8t0by0swmyta4m:
+                args:
+                    - --dataset
+                    - mnist
+                    - --epochs
+                    - "5"
+                    - --optimizer
+                    - adam
+                    - --hidden_layers
+                    - "2"
+                codePath: src\train.py
+                codePathLocal: src\train.py
+                email: kowshikisme@gmail.com
+                executable: C:\Users\deyko\anaconda3\python.exe
+                git:
+                    commit: 7b12bad4cb5d039f288b437843ccf8cf52de48dc
+                    remote: https://github.com/ItsKowshik/DA6401_Assignment1.git
+                host: ItsKowshik
+                os: Windows-11-10.0.26200-SP0
+                program: G:\Semester_2\DL\Assignment_1\src\train.py
+                python: CPython 3.13.5
+                root: G:\Semester_2\DL\Assignment_1
+                startedAt: "2026-02-25T09:14:41.572476Z"
+                writerId: uo11u7js01jfxc2pza8t0by0swmyta4m
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 105
+            "2":
+                - 105
+            "3":
+                - 16
+            "4": 3.13.5
+            "5": 0.25.0
+            "8":
+                - 2
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+activation:
+    value: relu
+batch_size:
+    value: 32
+dataset:
+    value: mnist
+epochs:
+    value: 5
+hidden_layers:
+    value: 2
+learning_rate:
+    value: 0.01
+loss:
+    value: cross_entropy
+model_save_path:
+    value: checkpoints/model.npz
+num_neurons:
+    value: 64
+optimizer:
+    value: adam
+wandb_project:
+    value: my-mlp-project
+weight_init:
+    value: random

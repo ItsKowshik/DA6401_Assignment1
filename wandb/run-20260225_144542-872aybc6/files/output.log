@@ -1,0 +1,13 @@
+Loading mnist dataset...
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+[1m11490434/11490434[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 1us/step
+Initializing Neural Network with 2 hidden layers...
+Starting training...
+Traceback (most recent call last):
+  File "G:\Semester_2\DL\Assignment_1\src\train.py", line 165, in <module>
+    main()
+    ~~~~^^
+  File "G:\Semester_2\DL\Assignment_1\src\train.py", line 139, in main
+    val_loss, val_accuracy = nn.evaluate(X_test, y_test)
+    ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object

@@ -1,0 +1,25 @@
+2026-02-26 17:45:45,750 INFO    MainThread:20020 [wandb_setup.py:_flush():81] Current SDK version is 0.25.0
+2026-02-26 17:45:45,751 INFO    MainThread:20020 [wandb_setup.py:_flush():81] Configure stats pid to 20020
+2026-02-26 17:45:45,751 INFO    MainThread:20020 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-02-26 17:45:45,751 INFO    MainThread:20020 [wandb_init.py:setup_run_log_directory():717] Logging user logs to G:\Semester_2\DL\Assignment_1\wandb\run-20260226_174545-hci27hwq\logs\debug.log
+2026-02-26 17:45:45,751 INFO    MainThread:20020 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to G:\Semester_2\DL\Assignment_1\wandb\run-20260226_174545-hci27hwq\logs\debug-internal.log
+2026-02-26 17:45:45,753 INFO    MainThread:20020 [wandb_init.py:init():844] calling init triggers
+2026-02-26 17:45:45,753 INFO    MainThread:20020 [wandb_init.py:init():849] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 16, 'dataset': 'mnist', 'epochs': 5, 'hidden_layers': 4, 'learning_rate': 0.004385005699096616, 'loss': 'cross_entropy', 'num_neurons': 32, 'optimizer': 'nadam', 'weight_init': 'xavier'}
+config: {'dataset': 'mnist', 'epochs': 5, 'batch_size': 16, 'learning_rate': 0.004385005699096616, 'optimizer': 'nadam', 'hidden_layers': 4, 'num_neurons': 32, 'activation': 'relu', 'weight_init': 'xavier', 'loss': 'cross_entropy', 'wandb_project': 'da6401-assignment-1', 'model_save_path': 'best_model.npy', '_wandb': {}}
+2026-02-26 17:45:45,753 INFO    MainThread:20020 [wandb_init.py:init():892] starting backend
+2026-02-26 17:45:48,159 INFO    MainThread:20020 [wandb_init.py:init():895] sending inform_init request
+2026-02-26 17:45:48,216 INFO    MainThread:20020 [wandb_init.py:init():903] backend started and connected
+2026-02-26 17:45:48,217 INFO    MainThread:20020 [wandb_run.py:_config_callback():1403] config_cb None None {'activation': 'relu', 'batch_size': 16, 'dataset': 'mnist', 'epochs': 5, 'hidden_layers': 4, 'learning_rate': 0.004385005699096616, 'loss': 'cross_entropy', 'num_neurons': 32, 'optimizer': 'nadam', 'weight_init': 'xavier'}
+2026-02-26 17:45:48,219 INFO    MainThread:20020 [wandb_init.py:init():973] updated telemetry
+2026-02-26 17:45:48,301 INFO    MainThread:20020 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-02-26 17:45:50,513 INFO    MainThread:20020 [wandb_init.py:init():1042] starting run threads in backend
+2026-02-26 17:45:50,983 INFO    MainThread:20020 [wandb_run.py:_console_start():2524] atexit reg
+2026-02-26 17:45:50,984 INFO    MainThread:20020 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-02-26 17:45:50,984 INFO    MainThread:20020 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-02-26 17:45:50,984 INFO    MainThread:20020 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-02-26 17:45:50,986 INFO    MainThread:20020 [wandb_init.py:init():1082] run started, returning control to user process
+2026-02-26 17:46:09,562 INFO    MainThread:20020 [wandb_run.py:_finish():2291] finishing run kowshikisme-indian-institute-of-technology-madras/da6401-assignment-1/hci27hwq
+2026-02-26 17:46:09,562 INFO    MainThread:20020 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-02-26 17:46:09,563 INFO    MainThread:20020 [wandb_run.py:_restore():2472] restore
+2026-02-26 17:46:09,563 INFO    MainThread:20020 [wandb_run.py:_restore():2478] restore done
+2026-02-26 17:46:12,024 INFO    MainThread:20020 [wandb_run.py:_footer_sync_info():3868] logging synced files

@@ -1,0 +1,123 @@
+2026-03-03 20:03:05 INFO Running runs: []
+2026-03-03 20:03:08 INFO Agent received command: run
+2026-03-03 20:03:08 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_layers: 2
+	learning_rate: 0.00018882329218394692
+	loss: cross_entropy
+	num_neurons: 128
+	optimizer: adam
+	weight_init: xavier
+2026-03-03 20:03:08 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=32 --dataset=mnist --epochs=10 --hidden_layers=2 --learning_rate=0.00018882329218394692 --loss=cross_entropy --num_neurons=128 --optimizer=adam --weight_init=xavier
+2026-03-03 20:03:13 INFO Running runs: ['q37ox0n7']
+2026-03-03 20:03:13 INFO Cleaning up finished run: q37ox0n7
+2026-03-03 20:03:30 INFO Running runs: []
+2026-03-03 20:03:31 INFO Agent received command: run
+2026-03-03 20:03:31 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	dataset: mnist
+	epochs: 10
+	hidden_layers: 4
+	learning_rate: 0.00013136999046770682
+	loss: cross_entropy
+	num_neurons: 128
+	optimizer: nag
+	weight_init: xavier
+2026-03-03 20:03:31 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=16 --dataset=mnist --epochs=10 --hidden_layers=4 --learning_rate=0.00013136999046770682 --loss=cross_entropy --num_neurons=128 --optimizer=nag --weight_init=xavier
+2026-03-03 20:03:36 INFO Running runs: ['unfvwge2']
+2026-03-03 20:03:36 INFO Cleaning up finished run: unfvwge2
+2026-03-03 20:03:37 INFO Agent received command: run
+2026-03-03 20:03:37 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	dataset: mnist
+	epochs: 5
+	hidden_layers: 1
+	learning_rate: 0.0007712140776070979
+	loss: cross_entropy
+	num_neurons: 128
+	optimizer: sgd
+	weight_init: random
+2026-03-03 20:03:37 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=16 --dataset=mnist --epochs=5 --hidden_layers=1 --learning_rate=0.0007712140776070979 --loss=cross_entropy --num_neurons=128 --optimizer=sgd --weight_init=random
+2026-03-03 20:03:42 INFO Running runs: ['k5xrhm51']
+2026-03-03 20:03:42 INFO Cleaning up finished run: k5xrhm51
+2026-03-03 20:03:43 INFO Agent received command: run
+2026-03-03 20:03:43 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	dataset: mnist
+	epochs: 5
+	hidden_layers: 1
+	learning_rate: 0.00035667625736612906
+	loss: cross_entropy
+	num_neurons: 64
+	optimizer: sgd
+	weight_init: random
+2026-03-03 20:03:43 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=32 --dataset=mnist --epochs=5 --hidden_layers=1 --learning_rate=0.00035667625736612906 --loss=cross_entropy --num_neurons=64 --optimizer=sgd --weight_init=random
+2026-03-03 20:03:48 INFO Running runs: ['0a5d1k87']
+2026-03-03 20:03:48 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2026-03-03 20:03:48 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2026-03-03 20:11:30 INFO Running runs: []
+2026-03-03 20:11:32 INFO Agent received command: run
+2026-03-03 20:11:32 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	dataset: mnist
+	epochs: 10
+	hidden_layers: 3
+	learning_rate: 0.0003836470270865884
+	loss: cross_entropy
+	num_neurons: 64
+	optimizer: nag
+	weight_init: xavier
+2026-03-03 20:11:32 INFO About to run command: /usr/bin/env python src/train.py --activation=tanh --batch_size=32 --dataset=mnist --epochs=10 --hidden_layers=3 --learning_rate=0.0003836470270865884 --loss=cross_entropy --num_neurons=64 --optimizer=nag --weight_init=xavier
+2026-03-03 20:11:37 INFO Running runs: ['cdjhknnq']
+2026-03-03 20:11:37 INFO Cleaning up finished run: cdjhknnq
+2026-03-03 20:11:38 INFO Agent received command: run
+2026-03-03 20:11:38 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 128
+	dataset: mnist
+	epochs: 5
+	hidden_layers: 3
+	learning_rate: 0.00026024675105852587
+	loss: cross_entropy
+	num_neurons: 128
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-03 20:11:38 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=128 --dataset=mnist --epochs=5 --hidden_layers=3 --learning_rate=0.00026024675105852587 --loss=cross_entropy --num_neurons=128 --optimizer=rmsprop --weight_init=xavier
+2026-03-03 20:11:43 INFO Running runs: ['r3v0i3io']
+2026-03-03 20:11:43 INFO Cleaning up finished run: r3v0i3io
+2026-03-03 20:11:44 INFO Agent received command: run
+2026-03-03 20:11:44 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 16
+	dataset: mnist
+	epochs: 5
+	hidden_layers: 4
+	learning_rate: 0.0020880962060422447
+	loss: cross_entropy
+	num_neurons: 128
+	optimizer: rmsprop
+	weight_init: xavier
+2026-03-03 20:11:44 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=16 --dataset=mnist --epochs=5 --hidden_layers=4 --learning_rate=0.0020880962060422447 --loss=cross_entropy --num_neurons=128 --optimizer=rmsprop --weight_init=xavier
+2026-03-03 20:11:49 INFO Running runs: ['5orai98n']
+2026-03-03 20:11:49 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2026-03-03 20:11:49 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2026-03-03 20:12:23 INFO Running runs: []
+2026-03-03 20:12:24 INFO Agent received command: run
+2026-03-03 20:12:24 INFO Agent starting run with config:
+	activation: relu
+	batch_size: 64
+	hidden_size: 256
+	learning_rate: 0.07193677333478783
+	loss: cross_entropy
+	num_layers: 1
+	optimizer: nag
+	weight_init: xavier
+2026-03-03 20:12:24 INFO About to run command: /usr/bin/env python src/train.py --activation=relu --batch_size=64 --hidden_size=256 --learning_rate=0.07193677333478783 --loss=cross_entropy --num_layers=1 --optimizer=nag --weight_init=xavier
+2026-03-03 20:12:29 INFO Running runs: ['jbjtw3yg']
