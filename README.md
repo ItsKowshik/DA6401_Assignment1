@@ -1,4 +1,5 @@
 # Assignment 1: Multi-Layer Perceptron for Image Classification
+## *Kowshik Arko Dey (ID25M803)*
 
 ## Overview
 
