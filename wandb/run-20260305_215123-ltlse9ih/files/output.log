@@ -1,0 +1,19 @@
+Loading mnist dataset
+Initializing Neural Network with 6 hidden layers and hidden sizes [128, 64, 32, 32, 64, 64]
+Loaded previous global best accuracy: 0.9796
+Starting training
+Epoch 1/15 - Train Loss: 1.0299, Train Acc: 0.4424 - Val Loss: 1.0166, Val Acc: 0.6387
+Epoch 2/15 - Train Loss: 0.6005, Train Acc: 0.7257 - Val Loss: 0.6203, Val Acc: 0.8134
+Epoch 3/15 - Train Loss: 0.5034, Train Acc: 0.8188 - Val Loss: 0.5247, Val Acc: 0.8406
+Epoch 4/15 - Train Loss: 0.4321, Train Acc: 0.8525 - Val Loss: 0.4353, Val Acc: 0.8964
+Epoch 5/15 - Train Loss: 0.3253, Train Acc: 0.9131 - Val Loss: 0.3358, Val Acc: 0.9252
+Epoch 6/15 - Train Loss: 0.2939, Train Acc: 0.9282 - Val Loss: 0.3208, Val Acc: 0.9327
+Epoch 7/15 - Train Loss: 0.3193, Train Acc: 0.9316 - Val Loss: 0.3432, Val Acc: 0.9374
+Epoch 8/15 - Train Loss: 0.3183, Train Acc: 0.9316 - Val Loss: 0.3472, Val Acc: 0.9321
+Epoch 9/15 - Train Loss: 0.2502, Train Acc: 0.9336 - Val Loss: 0.2793, Val Acc: 0.9405
+Epoch 10/15 - Train Loss: 0.2837, Train Acc: 0.9365 - Val Loss: 0.3321, Val Acc: 0.9242
+Epoch 11/15 - Train Loss: 0.3297, Train Acc: 0.9345 - Val Loss: 0.3762, Val Acc: 0.9220
+Epoch 12/15 - Train Loss: 0.3576, Train Acc: 0.9381 - Val Loss: 0.4197, Val Acc: 0.9330
+Epoch 13/15 - Train Loss: 0.3425, Train Acc: 0.9369 - Val Loss: 0.3939, Val Acc: 0.9376
+Epoch 14/15 - Train Loss: 0.6147, Train Acc: 0.9326 - Val Loss: 0.6677, Val Acc: 0.9340
+Epoch 15/15 - Train Loss: 0.3700, Train Acc: 0.9321 - Val Loss: 0.3965, Val Acc: 0.9282

@@ -1,0 +1,12 @@
+{"time":"2026-03-06T14:21:00.6103483+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T14:21:02.3501302+05:30","level":"INFO","msg":"stream: created new stream","id":"c8carnhu"}
+{"time":"2026-03-06T14:21:02.3501302+05:30","level":"INFO","msg":"handler: started","stream_id":"c8carnhu"}
+{"time":"2026-03-06T14:21:02.3519007+05:30","level":"INFO","msg":"stream: started","id":"c8carnhu"}
+{"time":"2026-03-06T14:21:02.3524995+05:30","level":"INFO","msg":"writer: started","stream_id":"c8carnhu"}
+{"time":"2026-03-06T14:21:02.3524995+05:30","level":"INFO","msg":"sender: started","stream_id":"c8carnhu"}
+{"time":"2026-03-06T14:21:39.1282658+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T14:21:39.6269657+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T14:21:39.644303+05:30","level":"INFO","msg":"stream: closing","id":"c8carnhu"}
+{"time":"2026-03-06T14:21:39.644303+05:30","level":"INFO","msg":"handler: closed","stream_id":"c8carnhu"}
+{"time":"2026-03-06T14:21:39.6493546+05:30","level":"INFO","msg":"sender: closed","stream_id":"c8carnhu"}
+{"time":"2026-03-06T14:21:39.6493546+05:30","level":"INFO","msg":"stream: closed","id":"c8carnhu"}

@@ -1,0 +1,12 @@
+
+ Training with RMSPROP
+Epoch 1 | Train Loss: 0.1655 | Val Acc: 0.9490
+Epoch 2 | Train Loss: 0.1008 | Val Acc: 0.9643
+Epoch 3 | Train Loss: 0.0926 | Val Acc: 0.9652
+Epoch 4 | Train Loss: 0.0765 | Val Acc: 0.9707
+Epoch 5 | Train Loss: 0.0689 | Val Acc: 0.9715
+Epoch 6 | Train Loss: 0.0747 | Val Acc: 0.9689
+Epoch 7 | Train Loss: 0.0664 | Val Acc: 0.9717
+Epoch 8 | Train Loss: 0.0631 | Val Acc: 0.9717
+Epoch 9 | Train Loss: 0.0502 | Val Acc: 0.9752
+Epoch 10 | Train Loss: 0.0507 | Val Acc: 0.9745

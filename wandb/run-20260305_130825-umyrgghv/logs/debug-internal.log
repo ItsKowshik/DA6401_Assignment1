@@ -1,0 +1,12 @@
+{"time":"2026-03-05T13:08:26.102157207+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-05T13:08:26.589647438+05:30","level":"INFO","msg":"stream: created new stream","id":"umyrgghv"}
+{"time":"2026-03-05T13:08:26.589825661+05:30","level":"INFO","msg":"handler: started","stream_id":"umyrgghv"}
+{"time":"2026-03-05T13:08:26.589944631+05:30","level":"INFO","msg":"stream: started","id":"umyrgghv"}
+{"time":"2026-03-05T13:08:26.590066023+05:30","level":"INFO","msg":"writer: started","stream_id":"umyrgghv"}
+{"time":"2026-03-05T13:08:26.590071561+05:30","level":"INFO","msg":"sender: started","stream_id":"umyrgghv"}
+{"time":"2026-03-05T13:08:49.3348735+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-05T13:08:50.155233013+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-05T13:08:50.162239743+05:30","level":"INFO","msg":"stream: closing","id":"umyrgghv"}
+{"time":"2026-03-05T13:08:50.162267431+05:30","level":"INFO","msg":"handler: closed","stream_id":"umyrgghv"}
+{"time":"2026-03-05T13:08:50.16235055+05:30","level":"INFO","msg":"sender: closed","stream_id":"umyrgghv"}
+{"time":"2026-03-05T13:08:50.162361821+05:30","level":"INFO","msg":"stream: closed","id":"umyrgghv"}

@@ -1,0 +1,12 @@
+{"time":"2026-03-05T22:15:51.0846665+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-05T22:15:54.9782307+05:30","level":"INFO","msg":"stream: created new stream","id":"lfjvetug"}
+{"time":"2026-03-05T22:15:54.9782307+05:30","level":"INFO","msg":"handler: started","stream_id":"lfjvetug"}
+{"time":"2026-03-05T22:15:54.9820588+05:30","level":"INFO","msg":"stream: started","id":"lfjvetug"}
+{"time":"2026-03-05T22:15:54.9820588+05:30","level":"INFO","msg":"writer: started","stream_id":"lfjvetug"}
+{"time":"2026-03-05T22:15:54.9820588+05:30","level":"INFO","msg":"sender: started","stream_id":"lfjvetug"}
+{"time":"2026-03-05T22:16:30.1704099+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-05T22:16:30.8897016+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-05T22:16:30.9092352+05:30","level":"INFO","msg":"stream: closing","id":"lfjvetug"}
+{"time":"2026-03-05T22:16:30.9092352+05:30","level":"INFO","msg":"handler: closed","stream_id":"lfjvetug"}
+{"time":"2026-03-05T22:16:30.9116879+05:30","level":"INFO","msg":"sender: closed","stream_id":"lfjvetug"}
+{"time":"2026-03-05T22:16:30.9116879+05:30","level":"INFO","msg":"stream: closed","id":"lfjvetug"}

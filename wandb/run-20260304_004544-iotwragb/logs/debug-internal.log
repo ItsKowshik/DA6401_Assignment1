@@ -1,0 +1,12 @@
+{"time":"2026-03-04T00:45:44.400181455+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-04T00:45:45.368816207+05:30","level":"INFO","msg":"stream: created new stream","id":"iotwragb"}
+{"time":"2026-03-04T00:45:45.368944657+05:30","level":"INFO","msg":"handler: started","stream_id":"iotwragb"}
+{"time":"2026-03-04T00:45:45.36920971+05:30","level":"INFO","msg":"stream: started","id":"iotwragb"}
+{"time":"2026-03-04T00:45:45.369257753+05:30","level":"INFO","msg":"writer: started","stream_id":"iotwragb"}
+{"time":"2026-03-04T00:45:45.369334485+05:30","level":"INFO","msg":"sender: started","stream_id":"iotwragb"}
+{"time":"2026-03-04T00:46:46.092422832+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-04T00:46:46.811642747+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-04T00:46:46.822195904+05:30","level":"INFO","msg":"stream: closing","id":"iotwragb"}
+{"time":"2026-03-04T00:46:46.822221092+05:30","level":"INFO","msg":"handler: closed","stream_id":"iotwragb"}
+{"time":"2026-03-04T00:46:46.822343894+05:30","level":"INFO","msg":"sender: closed","stream_id":"iotwragb"}
+{"time":"2026-03-04T00:46:46.822361592+05:30","level":"INFO","msg":"stream: closed","id":"iotwragb"}

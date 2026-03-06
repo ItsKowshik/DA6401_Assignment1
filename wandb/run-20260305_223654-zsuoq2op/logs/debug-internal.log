@@ -1,0 +1,12 @@
+{"time":"2026-03-05T22:36:56.8692735+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-05T22:36:58.6212212+05:30","level":"INFO","msg":"stream: created new stream","id":"zsuoq2op"}
+{"time":"2026-03-05T22:36:58.6212212+05:30","level":"INFO","msg":"handler: started","stream_id":"zsuoq2op"}
+{"time":"2026-03-05T22:36:58.6235511+05:30","level":"INFO","msg":"stream: started","id":"zsuoq2op"}
+{"time":"2026-03-05T22:36:58.6245026+05:30","level":"INFO","msg":"writer: started","stream_id":"zsuoq2op"}
+{"time":"2026-03-05T22:36:58.6245026+05:30","level":"INFO","msg":"sender: started","stream_id":"zsuoq2op"}
+{"time":"2026-03-05T22:37:30.4047983+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-05T22:37:31.2706376+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-05T22:37:31.2888283+05:30","level":"INFO","msg":"stream: closing","id":"zsuoq2op"}
+{"time":"2026-03-05T22:37:31.2888283+05:30","level":"INFO","msg":"handler: closed","stream_id":"zsuoq2op"}
+{"time":"2026-03-05T22:37:31.2912619+05:30","level":"INFO","msg":"sender: closed","stream_id":"zsuoq2op"}
+{"time":"2026-03-05T22:37:31.2912619+05:30","level":"INFO","msg":"stream: closed","id":"zsuoq2op"}

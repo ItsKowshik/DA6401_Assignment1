@@ -1,0 +1,1 @@
+{"epoch":5,"_runtime":9,"step":4689,"relu_grad_norm":2.285049730336348,"train_loss":0.3392645113254491,"_wandb":{"runtime":9},"_timestamp":1.7727225231021047e+09,"val_accuracy":0.9036,"dead_neuron_percentage":7.291666666666667,"_step":4694}

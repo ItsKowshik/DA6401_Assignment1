@@ -1,0 +1,28 @@
+wandb_version: 1
+
+activation:
+  value: tanh
+batch_size:
+  value: 16
+l1_size:
+  value: 128
+l2_size:
+  value: 128
+l3_size:
+  value: 128
+l4_size:
+  value: 64
+l5_size:
+  value: 128
+l6_size:
+  value: 32
+learning_rate:
+  value: 0.05851147349620545
+loss:
+  value: cross_entropy
+num_layers:
+  value: 2
+optimizer:
+  value: momentum
+weight_init:
+  value: random

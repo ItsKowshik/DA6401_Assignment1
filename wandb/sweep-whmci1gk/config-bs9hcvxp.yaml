@@ -1,0 +1,18 @@
+wandb_version: 1
+
+activation:
+  value: tanh
+batch_size:
+  value: 64
+hidden_size:
+  value:
+  - 128
+  - 64
+learning_rate:
+  value: 0.022945587018982132
+loss:
+  value: mse
+optimizer:
+  value: sgd
+weight_init:
+  value: xavier

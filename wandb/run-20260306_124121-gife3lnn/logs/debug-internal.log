@@ -1,0 +1,12 @@
+{"time":"2026-03-06T12:41:23.5394949+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T12:41:25.2016316+05:30","level":"INFO","msg":"stream: created new stream","id":"gife3lnn"}
+{"time":"2026-03-06T12:41:25.2016316+05:30","level":"INFO","msg":"handler: started","stream_id":"gife3lnn"}
+{"time":"2026-03-06T12:41:25.2028261+05:30","level":"INFO","msg":"stream: started","id":"gife3lnn"}
+{"time":"2026-03-06T12:41:25.2028261+05:30","level":"INFO","msg":"writer: started","stream_id":"gife3lnn"}
+{"time":"2026-03-06T12:41:25.2033768+05:30","level":"INFO","msg":"sender: started","stream_id":"gife3lnn"}
+{"time":"2026-03-06T12:41:47.4720165+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T12:41:48.2905422+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T12:41:48.3030244+05:30","level":"INFO","msg":"stream: closing","id":"gife3lnn"}
+{"time":"2026-03-06T12:41:48.3030244+05:30","level":"INFO","msg":"handler: closed","stream_id":"gife3lnn"}
+{"time":"2026-03-06T12:41:48.3058362+05:30","level":"INFO","msg":"sender: closed","stream_id":"gife3lnn"}
+{"time":"2026-03-06T12:41:48.3058362+05:30","level":"INFO","msg":"stream: closed","id":"gife3lnn"}

@@ -1,0 +1,12 @@
+{"time":"2026-03-05T23:44:57.4096157+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-05T23:44:59.1330132+05:30","level":"INFO","msg":"stream: created new stream","id":"daziv5fp"}
+{"time":"2026-03-05T23:44:59.1330132+05:30","level":"INFO","msg":"handler: started","stream_id":"daziv5fp"}
+{"time":"2026-03-05T23:44:59.1356698+05:30","level":"INFO","msg":"stream: started","id":"daziv5fp"}
+{"time":"2026-03-05T23:44:59.1356698+05:30","level":"INFO","msg":"writer: started","stream_id":"daziv5fp"}
+{"time":"2026-03-05T23:44:59.1356698+05:30","level":"INFO","msg":"sender: started","stream_id":"daziv5fp"}
+{"time":"2026-03-05T23:45:19.3806265+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-05T23:45:20.1167413+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-05T23:45:20.1307358+05:30","level":"INFO","msg":"stream: closing","id":"daziv5fp"}
+{"time":"2026-03-05T23:45:20.1307358+05:30","level":"INFO","msg":"handler: closed","stream_id":"daziv5fp"}
+{"time":"2026-03-05T23:45:20.1333937+05:30","level":"INFO","msg":"sender: closed","stream_id":"daziv5fp"}
+{"time":"2026-03-05T23:45:20.1333937+05:30","level":"INFO","msg":"stream: closed","id":"daziv5fp"}

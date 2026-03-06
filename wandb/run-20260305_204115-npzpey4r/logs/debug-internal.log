@@ -1,0 +1,12 @@
+{"time":"2026-03-05T20:41:18.1516343+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-05T20:41:19.9955482+05:30","level":"INFO","msg":"stream: created new stream","id":"npzpey4r"}
+{"time":"2026-03-05T20:41:19.9961266+05:30","level":"INFO","msg":"handler: started","stream_id":"npzpey4r"}
+{"time":"2026-03-05T20:41:19.9977336+05:30","level":"INFO","msg":"stream: started","id":"npzpey4r"}
+{"time":"2026-03-05T20:41:19.9977336+05:30","level":"INFO","msg":"writer: started","stream_id":"npzpey4r"}
+{"time":"2026-03-05T20:41:19.9977336+05:30","level":"INFO","msg":"sender: started","stream_id":"npzpey4r"}
+{"time":"2026-03-05T20:42:44.3096896+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-05T20:42:45.170081+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-05T20:42:45.1736912+05:30","level":"INFO","msg":"stream: closing","id":"npzpey4r"}
+{"time":"2026-03-05T20:42:45.1736912+05:30","level":"INFO","msg":"handler: closed","stream_id":"npzpey4r"}
+{"time":"2026-03-05T20:42:45.1736912+05:30","level":"INFO","msg":"sender: closed","stream_id":"npzpey4r"}
+{"time":"2026-03-05T20:42:45.1736912+05:30","level":"INFO","msg":"stream: closed","id":"npzpey4r"}

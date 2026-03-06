@@ -1,0 +1,12 @@
+{"time":"2026-03-05T14:44:03.653559083+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-05T14:44:05.603930898+05:30","level":"INFO","msg":"stream: created new stream","id":"dgueck4h"}
+{"time":"2026-03-05T14:44:05.60406529+05:30","level":"INFO","msg":"handler: started","stream_id":"dgueck4h"}
+{"time":"2026-03-05T14:44:05.604541904+05:30","level":"INFO","msg":"stream: started","id":"dgueck4h"}
+{"time":"2026-03-05T14:44:05.604586462+05:30","level":"INFO","msg":"writer: started","stream_id":"dgueck4h"}
+{"time":"2026-03-05T14:44:05.604688783+05:30","level":"INFO","msg":"sender: started","stream_id":"dgueck4h"}
+{"time":"2026-03-05T14:44:36.235346326+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-05T14:44:36.749151652+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-05T14:44:36.756514613+05:30","level":"INFO","msg":"stream: closing","id":"dgueck4h"}
+{"time":"2026-03-05T14:44:36.756526908+05:30","level":"INFO","msg":"handler: closed","stream_id":"dgueck4h"}
+{"time":"2026-03-05T14:44:36.756592191+05:30","level":"INFO","msg":"sender: closed","stream_id":"dgueck4h"}
+{"time":"2026-03-05T14:44:36.756605061+05:30","level":"INFO","msg":"stream: closed","id":"dgueck4h"}

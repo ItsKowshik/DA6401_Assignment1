@@ -1,0 +1,26 @@
+2026-03-04 05:07:32,199 INFO    MainThread:835673 [wandb_setup.py:_flush():81] Current SDK version is 0.25.0
+2026-03-04 05:07:32,199 INFO    MainThread:835673 [wandb_setup.py:_flush():81] Configure stats pid to 835673
+2026-03-04 05:07:32,200 INFO    MainThread:835673 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-03-04 05:07:32,200 INFO    MainThread:835673 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /home/kowshik/Old_G/Semester_2/DL/Assignment_1/wandb/run-20260304_050732-zlbmc5zo/logs/debug.log
+2026-03-04 05:07:32,200 INFO    MainThread:835673 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /home/kowshik/Old_G/Semester_2/DL/Assignment_1/wandb/run-20260304_050732-zlbmc5zo/logs/debug-internal.log
+2026-03-04 05:07:32,200 INFO    MainThread:835673 [wandb_init.py:init():844] calling init triggers
+2026-03-04 05:07:32,200 INFO    MainThread:835673 [wandb_init.py:init():849] wandb.init called with sweep_config: {'activation': 'sigmoid', 'batch_size': 16, 'hidden_size': 64, 'learning_rate': 0.005646475633466635, 'loss': 'mse', 'num_layers': 1, 'optimizer': 'sgd', 'weight_init': 'xavier'}
+config: {'dataset': 'mnist', 'epochs': 10, 'batch_size': 16, 'optimizer': 'sgd', 'learning_rate': 0.005646475633466635, 'weight_decay': 0.0, 'num_layers': 1, 'hidden_size': [64], 'activation': 'sigmoid', 'weight_init': 'xavier', 'loss': 'mse', 'model_path': 'best_model.npy', 'wandb_project': 'dl_1', '_wandb': {}}
+2026-03-04 05:07:32,200 INFO    MainThread:835673 [wandb_init.py:init():892] starting backend
+2026-03-04 05:07:32,461 INFO    MainThread:835673 [wandb_init.py:init():895] sending inform_init request
+2026-03-04 05:07:32,466 INFO    MainThread:835673 [wandb_init.py:init():903] backend started and connected
+2026-03-04 05:07:32,467 INFO    MainThread:835673 [wandb_run.py:_config_callback():1403] config_cb None None {'activation': 'sigmoid', 'batch_size': 16, 'hidden_size': 64, 'learning_rate': 0.005646475633466635, 'loss': 'mse', 'num_layers': 1, 'optimizer': 'sgd', 'weight_init': 'xavier'}
+2026-03-04 05:07:32,468 INFO    MainThread:835673 [wandb_init.py:init():973] updated telemetry
+2026-03-04 05:07:32,475 INFO    MainThread:835673 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-03-04 05:07:34,860 INFO    MainThread:835673 [wandb_init.py:init():1042] starting run threads in backend
+2026-03-04 05:07:35,024 INFO    MainThread:835673 [wandb_run.py:_console_start():2524] atexit reg
+2026-03-04 05:07:35,024 INFO    MainThread:835673 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-03-04 05:07:35,024 INFO    MainThread:835673 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-03-04 05:07:35,024 INFO    MainThread:835673 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-03-04 05:07:35,026 INFO    MainThread:835673 [wandb_init.py:init():1082] run started, returning control to user process
+2026-03-04 05:07:35,026 INFO    MainThread:835673 [wandb_run.py:_config_callback():1403] config_cb None None {'architecture_status': 'consistent'}
+2026-03-04 05:07:46,883 INFO    MainThread:835673 [wandb_run.py:_finish():2291] finishing run kowshikisme-indian-institute-of-technology-madras/dl_1/zlbmc5zo
+2026-03-04 05:07:46,883 INFO    MainThread:835673 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-03-04 05:07:46,884 INFO    MainThread:835673 [wandb_run.py:_restore():2472] restore
+2026-03-04 05:07:46,884 INFO    MainThread:835673 [wandb_run.py:_restore():2478] restore done
+2026-03-04 05:07:49,470 INFO    MainThread:835673 [wandb_run.py:_footer_sync_info():3868] logging synced files

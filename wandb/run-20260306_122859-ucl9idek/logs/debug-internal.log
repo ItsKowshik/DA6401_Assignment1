@@ -1,0 +1,12 @@
+{"time":"2026-03-06T12:29:01.9124755+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T12:29:03.6729823+05:30","level":"INFO","msg":"stream: created new stream","id":"ucl9idek"}
+{"time":"2026-03-06T12:29:03.6737861+05:30","level":"INFO","msg":"handler: started","stream_id":"ucl9idek"}
+{"time":"2026-03-06T12:29:03.6755559+05:30","level":"INFO","msg":"stream: started","id":"ucl9idek"}
+{"time":"2026-03-06T12:29:03.6755559+05:30","level":"INFO","msg":"writer: started","stream_id":"ucl9idek"}
+{"time":"2026-03-06T12:29:03.6755559+05:30","level":"INFO","msg":"sender: started","stream_id":"ucl9idek"}
+{"time":"2026-03-06T12:29:23.955223+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T12:29:25.0968988+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T12:29:25.1115678+05:30","level":"INFO","msg":"stream: closing","id":"ucl9idek"}
+{"time":"2026-03-06T12:29:25.1122591+05:30","level":"INFO","msg":"handler: closed","stream_id":"ucl9idek"}
+{"time":"2026-03-06T12:29:25.1152121+05:30","level":"INFO","msg":"sender: closed","stream_id":"ucl9idek"}
+{"time":"2026-03-06T12:29:25.1152121+05:30","level":"INFO","msg":"stream: closed","id":"ucl9idek"}

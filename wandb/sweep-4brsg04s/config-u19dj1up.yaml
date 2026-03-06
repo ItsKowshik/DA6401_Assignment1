@@ -1,0 +1,28 @@
+wandb_version: 1
+
+activation:
+  value: sigmoid
+batch_size:
+  value: 64
+l1_size:
+  value: 64
+l2_size:
+  value: 128
+l3_size:
+  value: 128
+l4_size:
+  value: 128
+l5_size:
+  value: 32
+l6_size:
+  value: 32
+learning_rate:
+  value: 0.001233526324986986
+loss:
+  value: cross_entropy
+num_layers:
+  value: 4
+optimizer:
+  value: sgd
+weight_init:
+  value: random

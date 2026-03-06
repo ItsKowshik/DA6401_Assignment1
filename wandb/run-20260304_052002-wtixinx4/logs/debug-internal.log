@@ -1,0 +1,12 @@
+{"time":"2026-03-04T05:20:02.360748263+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-04T05:20:02.878818542+05:30","level":"INFO","msg":"stream: created new stream","id":"wtixinx4"}
+{"time":"2026-03-04T05:20:02.878986083+05:30","level":"INFO","msg":"handler: started","stream_id":"wtixinx4"}
+{"time":"2026-03-04T05:20:02.879169129+05:30","level":"INFO","msg":"stream: started","id":"wtixinx4"}
+{"time":"2026-03-04T05:20:02.879314269+05:30","level":"INFO","msg":"writer: started","stream_id":"wtixinx4"}
+{"time":"2026-03-04T05:20:02.87936573+05:30","level":"INFO","msg":"sender: started","stream_id":"wtixinx4"}
+{"time":"2026-03-04T05:20:37.780270697+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-04T05:20:38.398215272+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-04T05:20:38.408090505+05:30","level":"INFO","msg":"stream: closing","id":"wtixinx4"}
+{"time":"2026-03-04T05:20:38.408113499+05:30","level":"INFO","msg":"handler: closed","stream_id":"wtixinx4"}
+{"time":"2026-03-04T05:20:38.408201125+05:30","level":"INFO","msg":"sender: closed","stream_id":"wtixinx4"}
+{"time":"2026-03-04T05:20:38.408212355+05:30","level":"INFO","msg":"stream: closed","id":"wtixinx4"}

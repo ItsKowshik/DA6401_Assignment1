@@ -1,0 +1,12 @@
+{"time":"2026-03-05T10:21:13.537299337+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-05T10:21:15.366234432+05:30","level":"INFO","msg":"stream: created new stream","id":"av4qakur"}
+{"time":"2026-03-05T10:21:15.368414823+05:30","level":"INFO","msg":"handler: started","stream_id":"av4qakur"}
+{"time":"2026-03-05T10:21:15.368423661+05:30","level":"INFO","msg":"stream: started","id":"av4qakur"}
+{"time":"2026-03-05T10:21:15.368442603+05:30","level":"INFO","msg":"writer: started","stream_id":"av4qakur"}
+{"time":"2026-03-05T10:21:15.368447184+05:30","level":"INFO","msg":"sender: started","stream_id":"av4qakur"}
+{"time":"2026-03-05T10:21:36.331954787+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-05T10:21:36.948326793+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-05T10:21:36.953229965+05:30","level":"INFO","msg":"stream: closing","id":"av4qakur"}
+{"time":"2026-03-05T10:21:36.953253942+05:30","level":"INFO","msg":"handler: closed","stream_id":"av4qakur"}
+{"time":"2026-03-05T10:21:36.953330122+05:30","level":"INFO","msg":"sender: closed","stream_id":"av4qakur"}
+{"time":"2026-03-05T10:21:36.953339163+05:30","level":"INFO","msg":"stream: closed","id":"av4qakur"}

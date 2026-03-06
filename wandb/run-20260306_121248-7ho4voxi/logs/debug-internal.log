@@ -1,0 +1,12 @@
+{"time":"2026-03-06T12:12:51.5197058+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T12:12:53.2165051+05:30","level":"INFO","msg":"stream: created new stream","id":"7ho4voxi"}
+{"time":"2026-03-06T12:12:53.2165051+05:30","level":"INFO","msg":"handler: started","stream_id":"7ho4voxi"}
+{"time":"2026-03-06T12:12:53.2175761+05:30","level":"INFO","msg":"stream: started","id":"7ho4voxi"}
+{"time":"2026-03-06T12:12:53.2175761+05:30","level":"INFO","msg":"writer: started","stream_id":"7ho4voxi"}
+{"time":"2026-03-06T12:12:53.2175761+05:30","level":"INFO","msg":"sender: started","stream_id":"7ho4voxi"}
+{"time":"2026-03-06T12:13:33.1870059+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T12:13:33.9840482+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T12:13:33.9970696+05:30","level":"INFO","msg":"stream: closing","id":"7ho4voxi"}
+{"time":"2026-03-06T12:13:33.9975092+05:30","level":"INFO","msg":"handler: closed","stream_id":"7ho4voxi"}
+{"time":"2026-03-06T12:13:33.9998888+05:30","level":"INFO","msg":"sender: closed","stream_id":"7ho4voxi"}
+{"time":"2026-03-06T12:13:33.9998888+05:30","level":"INFO","msg":"stream: closed","id":"7ho4voxi"}

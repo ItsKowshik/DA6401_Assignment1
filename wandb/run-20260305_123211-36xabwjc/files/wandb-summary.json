@@ -1,0 +1,1 @@
+{"val_accuracy":0.913,"_timestamp":1.7726941401527424e+09,"_runtime":6,"_step":4694,"dead_neuron_percentage":4.6875,"step":4689,"relu_grad_norm":1.513277217055277,"epoch":5,"_wandb":{"runtime":6},"train_loss":0.29334920820495514}

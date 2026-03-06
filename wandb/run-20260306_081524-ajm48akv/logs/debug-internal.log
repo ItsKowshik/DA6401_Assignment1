@@ -1,0 +1,12 @@
+{"time":"2026-03-06T08:15:26.8616698+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T08:15:28.4961689+05:30","level":"INFO","msg":"stream: created new stream","id":"ajm48akv"}
+{"time":"2026-03-06T08:15:28.4969211+05:30","level":"INFO","msg":"handler: started","stream_id":"ajm48akv"}
+{"time":"2026-03-06T08:15:28.5008748+05:30","level":"INFO","msg":"stream: started","id":"ajm48akv"}
+{"time":"2026-03-06T08:15:28.5008748+05:30","level":"INFO","msg":"writer: started","stream_id":"ajm48akv"}
+{"time":"2026-03-06T08:15:28.5013864+05:30","level":"INFO","msg":"sender: started","stream_id":"ajm48akv"}
+{"time":"2026-03-06T08:15:43.3074712+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T08:15:43.7969799+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T08:15:43.8080967+05:30","level":"INFO","msg":"stream: closing","id":"ajm48akv"}
+{"time":"2026-03-06T08:15:43.8080967+05:30","level":"INFO","msg":"handler: closed","stream_id":"ajm48akv"}
+{"time":"2026-03-06T08:15:43.8108933+05:30","level":"INFO","msg":"sender: closed","stream_id":"ajm48akv"}
+{"time":"2026-03-06T08:15:43.8108933+05:30","level":"INFO","msg":"stream: closed","id":"ajm48akv"}

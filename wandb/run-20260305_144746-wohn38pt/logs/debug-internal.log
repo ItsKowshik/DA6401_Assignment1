@@ -1,0 +1,12 @@
+{"time":"2026-03-05T14:47:46.471648289+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-05T14:47:48.327028938+05:30","level":"INFO","msg":"stream: created new stream","id":"wohn38pt"}
+{"time":"2026-03-05T14:47:48.327300177+05:30","level":"INFO","msg":"handler: started","stream_id":"wohn38pt"}
+{"time":"2026-03-05T14:47:48.327364344+05:30","level":"INFO","msg":"stream: started","id":"wohn38pt"}
+{"time":"2026-03-05T14:47:48.327405625+05:30","level":"INFO","msg":"sender: started","stream_id":"wohn38pt"}
+{"time":"2026-03-05T14:47:48.327412932+05:30","level":"INFO","msg":"writer: started","stream_id":"wohn38pt"}
+{"time":"2026-03-05T14:48:26.846450902+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-05T14:48:27.446633887+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-05T14:48:27.455681137+05:30","level":"INFO","msg":"stream: closing","id":"wohn38pt"}
+{"time":"2026-03-05T14:48:27.455705905+05:30","level":"INFO","msg":"handler: closed","stream_id":"wohn38pt"}
+{"time":"2026-03-05T14:48:27.455832739+05:30","level":"INFO","msg":"sender: closed","stream_id":"wohn38pt"}
+{"time":"2026-03-05T14:48:27.455849564+05:30","level":"INFO","msg":"stream: closed","id":"wohn38pt"}

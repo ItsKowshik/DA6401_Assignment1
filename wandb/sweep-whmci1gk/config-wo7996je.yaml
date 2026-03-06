@@ -1,0 +1,19 @@
+wandb_version: 1
+
+activation:
+  value: relu
+batch_size:
+  value: 16
+hidden_size:
+  value:
+  - 128
+  - 128
+  - 64
+learning_rate:
+  value: 0.0002039444306619281
+loss:
+  value: cross_entropy
+optimizer:
+  value: sgd
+weight_init:
+  value: xavier

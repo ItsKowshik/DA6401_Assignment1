@@ -1,0 +1,12 @@
+{"time":"2026-03-04T01:01:44.255596294+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-04T01:01:45.271217377+05:30","level":"INFO","msg":"stream: created new stream","id":"3zoip4va"}
+{"time":"2026-03-04T01:01:45.27130444+05:30","level":"INFO","msg":"handler: started","stream_id":"3zoip4va"}
+{"time":"2026-03-04T01:01:45.271458631+05:30","level":"INFO","msg":"stream: started","id":"3zoip4va"}
+{"time":"2026-03-04T01:01:45.27155775+05:30","level":"INFO","msg":"sender: started","stream_id":"3zoip4va"}
+{"time":"2026-03-04T01:01:45.27155505+05:30","level":"INFO","msg":"writer: started","stream_id":"3zoip4va"}
+{"time":"2026-03-04T01:01:52.748150154+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-04T01:01:53.157350845+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-04T01:01:53.168486437+05:30","level":"INFO","msg":"stream: closing","id":"3zoip4va"}
+{"time":"2026-03-04T01:01:53.168512595+05:30","level":"INFO","msg":"handler: closed","stream_id":"3zoip4va"}
+{"time":"2026-03-04T01:01:53.168615055+05:30","level":"INFO","msg":"sender: closed","stream_id":"3zoip4va"}
+{"time":"2026-03-04T01:01:53.168653322+05:30","level":"INFO","msg":"stream: closed","id":"3zoip4va"}

@@ -1,0 +1,12 @@
+{"time":"2026-03-06T13:57:43.9805095+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T13:57:45.6365875+05:30","level":"INFO","msg":"stream: created new stream","id":"cmii2eqy"}
+{"time":"2026-03-06T13:57:45.6365875+05:30","level":"INFO","msg":"handler: started","stream_id":"cmii2eqy"}
+{"time":"2026-03-06T13:57:45.6379305+05:30","level":"INFO","msg":"stream: started","id":"cmii2eqy"}
+{"time":"2026-03-06T13:57:45.6379305+05:30","level":"INFO","msg":"writer: started","stream_id":"cmii2eqy"}
+{"time":"2026-03-06T13:57:45.6379305+05:30","level":"INFO","msg":"sender: started","stream_id":"cmii2eqy"}
+{"time":"2026-03-06T14:01:58.0310371+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T14:01:58.646194+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T14:01:58.6633051+05:30","level":"INFO","msg":"stream: closing","id":"cmii2eqy"}
+{"time":"2026-03-06T14:01:58.6633051+05:30","level":"INFO","msg":"handler: closed","stream_id":"cmii2eqy"}
+{"time":"2026-03-06T14:01:58.6661258+05:30","level":"INFO","msg":"sender: closed","stream_id":"cmii2eqy"}
+{"time":"2026-03-06T14:01:58.6661258+05:30","level":"INFO","msg":"stream: closed","id":"cmii2eqy"}

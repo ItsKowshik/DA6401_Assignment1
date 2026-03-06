@@ -1,0 +1,28 @@
+wandb_version: 1
+
+activation:
+  value: sigmoid
+batch_size:
+  value: 64
+l1_size:
+  value: 128
+l2_size:
+  value: 32
+l3_size:
+  value: 128
+l4_size:
+  value: 64
+l5_size:
+  value: 128
+l6_size:
+  value: 64
+learning_rate:
+  value: 0.003819026711586658
+loss:
+  value: mse
+num_layers:
+  value: 5
+optimizer:
+  value: rmsprop
+weight_init:
+  value: random

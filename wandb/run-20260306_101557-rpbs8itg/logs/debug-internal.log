@@ -1,0 +1,12 @@
+{"time":"2026-03-06T10:15:59.5086599+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T10:16:01.143265+05:30","level":"INFO","msg":"stream: created new stream","id":"rpbs8itg"}
+{"time":"2026-03-06T10:16:01.143265+05:30","level":"INFO","msg":"handler: started","stream_id":"rpbs8itg"}
+{"time":"2026-03-06T10:16:01.1449522+05:30","level":"INFO","msg":"stream: started","id":"rpbs8itg"}
+{"time":"2026-03-06T10:16:01.1449522+05:30","level":"INFO","msg":"writer: started","stream_id":"rpbs8itg"}
+{"time":"2026-03-06T10:16:01.1449522+05:30","level":"INFO","msg":"sender: started","stream_id":"rpbs8itg"}
+{"time":"2026-03-06T10:16:24.6391527+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T10:16:25.0822292+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T10:16:25.0905474+05:30","level":"INFO","msg":"stream: closing","id":"rpbs8itg"}
+{"time":"2026-03-06T10:16:25.0905474+05:30","level":"INFO","msg":"handler: closed","stream_id":"rpbs8itg"}
+{"time":"2026-03-06T10:16:25.092406+05:30","level":"INFO","msg":"sender: closed","stream_id":"rpbs8itg"}
+{"time":"2026-03-06T10:16:25.0929877+05:30","level":"INFO","msg":"stream: closed","id":"rpbs8itg"}

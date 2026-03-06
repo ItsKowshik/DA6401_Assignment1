@@ -1,0 +1,12 @@
+{"time":"2026-03-05T13:26:56.501287908+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-05T13:26:57.040987629+05:30","level":"INFO","msg":"stream: created new stream","id":"bxpioxta"}
+{"time":"2026-03-05T13:26:57.041136455+05:30","level":"INFO","msg":"handler: started","stream_id":"bxpioxta"}
+{"time":"2026-03-05T13:26:57.041298616+05:30","level":"INFO","msg":"stream: started","id":"bxpioxta"}
+{"time":"2026-03-05T13:26:57.04149612+05:30","level":"INFO","msg":"writer: started","stream_id":"bxpioxta"}
+{"time":"2026-03-05T13:26:57.04148777+05:30","level":"INFO","msg":"sender: started","stream_id":"bxpioxta"}
+{"time":"2026-03-05T13:28:04.305599777+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-05T13:28:05.123679455+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-05T13:28:05.133147171+05:30","level":"INFO","msg":"stream: closing","id":"bxpioxta"}
+{"time":"2026-03-05T13:28:05.133174722+05:30","level":"INFO","msg":"handler: closed","stream_id":"bxpioxta"}
+{"time":"2026-03-05T13:28:05.133303629+05:30","level":"INFO","msg":"sender: closed","stream_id":"bxpioxta"}
+{"time":"2026-03-05T13:28:05.133318389+05:30","level":"INFO","msg":"stream: closed","id":"bxpioxta"}

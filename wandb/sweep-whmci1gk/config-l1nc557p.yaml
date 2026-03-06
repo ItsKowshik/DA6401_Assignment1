@@ -1,0 +1,19 @@
+wandb_version: 1
+
+activation:
+  value: sigmoid
+batch_size:
+  value: 16
+hidden_size:
+  value:
+  - 32
+  - 128
+  - 64
+learning_rate:
+  value: 0.0005998533120233154
+loss:
+  value: cross_entropy
+optimizer:
+  value: nag
+weight_init:
+  value: xavier

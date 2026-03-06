@@ -1,0 +1,15 @@
+[34m[1mwandb[0m: [33mWARNING[0m Architecture Mismatch: 'num_layers' is 2 but 'hidden_size' provided 1 values ([64]). Broadcasting/Slicing will be applied.
+Loading mnist dataset
+Initializing Neural Network with 2 hidden layers and hidden sizes [64]
+Loaded previous global best accuracy: 0.9786
+Starting training
+Epoch 1/10 - Train Loss: 2.2998, Train Acc: 0.1071 - Val Loss: 2.2995, Val Acc: 0.1135
+Epoch 2/10 - Train Loss: 2.2982, Train Acc: 0.1124 - Val Loss: 2.2977, Val Acc: 0.1135
+Epoch 3/10 - Train Loss: 2.2965, Train Acc: 0.1124 - Val Loss: 2.2960, Val Acc: 0.1135
+Epoch 4/10 - Train Loss: 2.2948, Train Acc: 0.1124 - Val Loss: 2.2943, Val Acc: 0.1135
+Epoch 5/10 - Train Loss: 2.2931, Train Acc: 0.1124 - Val Loss: 2.2924, Val Acc: 0.1135
+Epoch 6/10 - Train Loss: 2.2912, Train Acc: 0.1124 - Val Loss: 2.2906, Val Acc: 0.1135
+Epoch 7/10 - Train Loss: 2.2893, Train Acc: 0.1124 - Val Loss: 2.2887, Val Acc: 0.1135
+Epoch 8/10 - Train Loss: 2.2872, Train Acc: 0.1129 - Val Loss: 2.2864, Val Acc: 0.1135
+Epoch 9/10 - Train Loss: 2.2849, Train Acc: 0.1128 - Val Loss: 2.2842, Val Acc: 0.1135
+Epoch 10/10 - Train Loss: 2.2825, Train Acc: 0.1211 - Val Loss: 2.2815, Val Acc: 0.1135

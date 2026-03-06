@@ -1,0 +1,26 @@
+2026-03-04 06:06:54,907 INFO    MainThread:898660 [wandb_setup.py:_flush():81] Current SDK version is 0.25.0
+2026-03-04 06:06:54,907 INFO    MainThread:898660 [wandb_setup.py:_flush():81] Configure stats pid to 898660
+2026-03-04 06:06:54,907 INFO    MainThread:898660 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-03-04 06:06:54,907 INFO    MainThread:898660 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /home/kowshik/Old_G/Semester_2/DL/Assignment_1/wandb/run-20260304_060654-zox9vg4z/logs/debug.log
+2026-03-04 06:06:54,908 INFO    MainThread:898660 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /home/kowshik/Old_G/Semester_2/DL/Assignment_1/wandb/run-20260304_060654-zox9vg4z/logs/debug-internal.log
+2026-03-04 06:06:54,908 INFO    MainThread:898660 [wandb_init.py:init():844] calling init triggers
+2026-03-04 06:06:54,908 INFO    MainThread:898660 [wandb_init.py:init():849] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 32, 'hidden_size': 64, 'learning_rate': 0.0002876223883049812, 'loss': 'mse', 'num_layers': 5, 'optimizer': 'rmsprop', 'weight_init': 'random'}
+config: {'dataset': 'mnist', 'epochs': 10, 'batch_size': 32, 'optimizer': 'rmsprop', 'learning_rate': 0.0002876223883049812, 'weight_decay': 0.0, 'num_layers': 5, 'hidden_size': [64], 'activation': 'tanh', 'weight_init': 'random', 'loss': 'mse', 'model_path': 'best_model.npy', 'wandb_project': 'dl_1', '_wandb': {}}
+2026-03-04 06:06:54,908 INFO    MainThread:898660 [wandb_init.py:init():892] starting backend
+2026-03-04 06:06:55,174 INFO    MainThread:898660 [wandb_init.py:init():895] sending inform_init request
+2026-03-04 06:06:55,180 INFO    MainThread:898660 [wandb_init.py:init():903] backend started and connected
+2026-03-04 06:06:55,182 INFO    MainThread:898660 [wandb_run.py:_config_callback():1403] config_cb None None {'activation': 'tanh', 'batch_size': 32, 'hidden_size': 64, 'learning_rate': 0.0002876223883049812, 'loss': 'mse', 'num_layers': 5, 'optimizer': 'rmsprop', 'weight_init': 'random'}
+2026-03-04 06:06:55,183 INFO    MainThread:898660 [wandb_init.py:init():973] updated telemetry
+2026-03-04 06:06:55,192 INFO    MainThread:898660 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-03-04 06:06:56,489 INFO    MainThread:898660 [wandb_init.py:init():1042] starting run threads in backend
+2026-03-04 06:06:56,643 INFO    MainThread:898660 [wandb_run.py:_console_start():2524] atexit reg
+2026-03-04 06:06:56,643 INFO    MainThread:898660 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-03-04 06:06:56,643 INFO    MainThread:898660 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-03-04 06:06:56,643 INFO    MainThread:898660 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-03-04 06:06:56,645 INFO    MainThread:898660 [wandb_init.py:init():1082] run started, returning control to user process
+2026-03-04 06:06:56,645 INFO    MainThread:898660 [wandb_run.py:_config_callback():1403] config_cb None None {'architecture_status': 'auto-corrected'}
+2026-03-04 06:07:24,379 INFO    MainThread:898660 [wandb_run.py:_finish():2291] finishing run kowshikisme-indian-institute-of-technology-madras/dl_1/zox9vg4z
+2026-03-04 06:07:24,379 INFO    MainThread:898660 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-03-04 06:07:24,380 INFO    MainThread:898660 [wandb_run.py:_restore():2472] restore
+2026-03-04 06:07:24,380 INFO    MainThread:898660 [wandb_run.py:_restore():2478] restore done
+2026-03-04 06:07:26,311 INFO    MainThread:898660 [wandb_run.py:_footer_sync_info():3868] logging synced files

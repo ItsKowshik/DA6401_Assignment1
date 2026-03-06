@@ -1,0 +1,18 @@
+wandb_version: 1
+
+activation:
+  value: relu
+batch_size:
+  value: 64
+hidden_size:
+  value: 32
+learning_rate:
+  value: 0.022251689622994952
+loss:
+  value: mse
+num_layers:
+  value: 5
+optimizer:
+  value: momentum
+weight_init:
+  value: random

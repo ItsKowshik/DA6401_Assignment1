@@ -1,0 +1,12 @@
+{"time":"2026-03-06T10:08:27.1618849+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T10:08:28.9460912+05:30","level":"INFO","msg":"stream: created new stream","id":"vljkhmss"}
+{"time":"2026-03-06T10:08:28.9460912+05:30","level":"INFO","msg":"handler: started","stream_id":"vljkhmss"}
+{"time":"2026-03-06T10:08:28.9479455+05:30","level":"INFO","msg":"stream: started","id":"vljkhmss"}
+{"time":"2026-03-06T10:08:28.9485899+05:30","level":"INFO","msg":"writer: started","stream_id":"vljkhmss"}
+{"time":"2026-03-06T10:08:28.9485899+05:30","level":"INFO","msg":"sender: started","stream_id":"vljkhmss"}
+{"time":"2026-03-06T10:08:51.615337+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T10:08:52.2380984+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T10:08:52.252322+05:30","level":"INFO","msg":"stream: closing","id":"vljkhmss"}
+{"time":"2026-03-06T10:08:52.252322+05:30","level":"INFO","msg":"handler: closed","stream_id":"vljkhmss"}
+{"time":"2026-03-06T10:08:52.2548004+05:30","level":"INFO","msg":"sender: closed","stream_id":"vljkhmss"}
+{"time":"2026-03-06T10:08:52.2548004+05:30","level":"INFO","msg":"stream: closed","id":"vljkhmss"}

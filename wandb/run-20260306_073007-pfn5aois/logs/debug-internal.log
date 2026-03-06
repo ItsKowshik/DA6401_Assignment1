@@ -1,0 +1,12 @@
+{"time":"2026-03-06T07:30:09.8160224+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T07:30:11.9295211+05:30","level":"INFO","msg":"stream: created new stream","id":"pfn5aois"}
+{"time":"2026-03-06T07:30:11.9301128+05:30","level":"INFO","msg":"handler: started","stream_id":"pfn5aois"}
+{"time":"2026-03-06T07:30:11.9332665+05:30","level":"INFO","msg":"stream: started","id":"pfn5aois"}
+{"time":"2026-03-06T07:30:11.9332665+05:30","level":"INFO","msg":"writer: started","stream_id":"pfn5aois"}
+{"time":"2026-03-06T07:30:11.9332665+05:30","level":"INFO","msg":"sender: started","stream_id":"pfn5aois"}
+{"time":"2026-03-06T07:31:23.5648129+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T07:31:24.098286+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T07:31:24.1145741+05:30","level":"INFO","msg":"stream: closing","id":"pfn5aois"}
+{"time":"2026-03-06T07:31:24.1145741+05:30","level":"INFO","msg":"handler: closed","stream_id":"pfn5aois"}
+{"time":"2026-03-06T07:31:24.1169735+05:30","level":"INFO","msg":"sender: closed","stream_id":"pfn5aois"}
+{"time":"2026-03-06T07:31:24.117579+05:30","level":"INFO","msg":"stream: closed","id":"pfn5aois"}

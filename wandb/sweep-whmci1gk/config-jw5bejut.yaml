@@ -1,0 +1,19 @@
+wandb_version: 1
+
+activation:
+  value: tanh
+batch_size:
+  value: 32
+hidden_size:
+  value:
+  - 64
+  - 128
+  - 128
+learning_rate:
+  value: 0.017945171692431663
+loss:
+  value: cross_entropy
+optimizer:
+  value: nag
+weight_init:
+  value: xavier

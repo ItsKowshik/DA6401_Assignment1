@@ -1,0 +1,17 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.13.5",
+  "startedAt":  "2026-03-05T15:03:04.915954Z",
+  "program":  "E:\\Old_G\\Semester_2\\DL\\Assignment_1\\src\\weight_init_symmetry.py",
+  "codePath":  "src\\weight_init_symmetry.py",
+  "codePathLocal":  "src\\weight_init_symmetry.py",
+  "git":  {
+    "remote":  "https://github.com/ItsKowshik/DA6401_Assignment1.git",
+    "commit":  "214e59add6c27a1d5c02231baef65658d51ed713"
+  },
+  "email":  "kowshikisme@gmail.com",
+  "root":  "E:\\Old_G\\Semester_2\\DL\\Assignment_1",
+  "host":  "ItsKowshik",
+  "executable":  "C:\\Users\\deyko\\anaconda3\\python.exe",
+  "writerId":  "03ny6d7atpk8zjfiynhrxx5mm3ur2iab"
+}

@@ -1,0 +1,96 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            xb8t0zf0cyt478ycqcwmlenrqh844sdu:
+                args:
+                    - --activation=tanh
+                    - --batch_size=32
+                    - --hidden_size=64
+                    - --learning_rate=0.04530670144716293
+                    - --loss=mse
+                    - --num_layers=5
+                    - --optimizer=momentum
+                    - --weight_init=xavier
+                codePath: src/train.py
+                codePathLocal: src/train.py
+                cpu_count: 10
+                cpu_count_logical: 16
+                cudaVersion: "13.1"
+                disk:
+                    /:
+                        total: "61382291456"
+                        used: "46260940800"
+                email: kowshikisme@gmail.com
+                executable: /home/kowshik/miniconda3/bin/python
+                git:
+                    commit: 214e59add6c27a1d5c02231baef65658d51ed713
+                    remote: https://github.com/ItsKowshik/DA6401_Assignment1.git
+                gpu: NVIDIA GeForce RTX 5050 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 2560
+                      memoryTotal: "8546942976"
+                      name: NVIDIA GeForce RTX 5050 Laptop GPU
+                      uuid: GPU-f7efdbb2-8b5c-34e0-69c3-d8b8a8e85300
+                host: ItsKowshik07
+                memory:
+                    total: "16350670848"
+                os: Linux-6.17.0-14-generic-x86_64-with-glibc2.39
+                program: /home/kowshik/Old_G/Semester_2/DL/Assignment_1/src/train.py
+                python: CPython 3.13.11
+                root: /home/kowshik/Old_G/Semester_2/DL/Assignment_1
+                startedAt: "2026-03-03T19:18:09.144081Z"
+                writerId: xb8t0zf0cyt478ycqcwmlenrqh844sdu
+        m: []
+        python_version: 3.13.11
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 49
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 49
+                - 53
+            "3":
+                - 2
+                - 14
+                - 16
+            "4": 3.13.11
+            "5": 0.25.0
+            "12": 0.25.0
+            "13": linux-x86_64
+activation:
+    value: tanh
+architecture_status:
+    value: auto-corrected
+batch_size:
+    value: 32
+dataset:
+    value: mnist
+epochs:
+    value: 10
+hidden_size:
+    value: 64
+learning_rate:
+    value: 0.04530670144716293
+loss:
+    value: mse
+model_path:
+    value: best_model.npy
+num_layers:
+    value: 5
+optimizer:
+    value: momentum
+wandb_project:
+    value: dl_1
+weight_decay:
+    value: 0
+weight_init:
+    value: xavier

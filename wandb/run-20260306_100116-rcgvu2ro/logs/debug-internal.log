@@ -1,0 +1,12 @@
+{"time":"2026-03-06T10:01:18.5224825+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T10:01:20.2137703+05:30","level":"INFO","msg":"stream: created new stream","id":"rcgvu2ro"}
+{"time":"2026-03-06T10:01:20.2145238+05:30","level":"INFO","msg":"handler: started","stream_id":"rcgvu2ro"}
+{"time":"2026-03-06T10:01:20.217453+05:30","level":"INFO","msg":"stream: started","id":"rcgvu2ro"}
+{"time":"2026-03-06T10:01:20.2181244+05:30","level":"INFO","msg":"writer: started","stream_id":"rcgvu2ro"}
+{"time":"2026-03-06T10:01:20.2181244+05:30","level":"INFO","msg":"sender: started","stream_id":"rcgvu2ro"}
+{"time":"2026-03-06T10:02:23.4846309+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T10:02:24.1684956+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T10:02:24.1851808+05:30","level":"INFO","msg":"stream: closing","id":"rcgvu2ro"}
+{"time":"2026-03-06T10:02:24.1851808+05:30","level":"INFO","msg":"handler: closed","stream_id":"rcgvu2ro"}
+{"time":"2026-03-06T10:02:24.1877516+05:30","level":"INFO","msg":"sender: closed","stream_id":"rcgvu2ro"}
+{"time":"2026-03-06T10:02:24.1882805+05:30","level":"INFO","msg":"stream: closed","id":"rcgvu2ro"}

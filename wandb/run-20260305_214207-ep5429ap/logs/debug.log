@@ -1,0 +1,26 @@
+2026-03-05 21:42:07,088 INFO    MainThread:24776 [wandb_setup.py:_flush():81] Current SDK version is 0.25.0
+2026-03-05 21:42:07,088 INFO    MainThread:24776 [wandb_setup.py:_flush():81] Configure stats pid to 24776
+2026-03-05 21:42:07,088 INFO    MainThread:24776 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-03-05 21:42:07,089 INFO    MainThread:24776 [wandb_init.py:setup_run_log_directory():717] Logging user logs to E:\Old_G\Semester_2\DL\Assignment_1\wandb\run-20260305_214207-ep5429ap\logs\debug.log
+2026-03-05 21:42:07,089 INFO    MainThread:24776 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to E:\Old_G\Semester_2\DL\Assignment_1\wandb\run-20260305_214207-ep5429ap\logs\debug-internal.log
+2026-03-05 21:42:07,091 INFO    MainThread:24776 [wandb_init.py:init():844] calling init triggers
+2026-03-05 21:42:07,091 INFO    MainThread:24776 [wandb_init.py:init():849] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 16, 'l1_size': 64, 'l2_size': 128, 'l3_size': 128, 'l4_size': 128, 'l5_size': 64, 'l6_size': 32, 'learning_rate': 0.023355389024719946, 'loss': 'cross_entropy', 'num_layers': 1, 'optimizer': 'momentum', 'weight_init': 'xavier'}
+config: {'dataset': 'mnist', 'epochs': 15, 'batch_size': 16, 'optimizer': 'momentum', 'learning_rate': 0.023355389024719946, 'weight_decay': 0.0, 'num_layers': 3, 'hidden_size': [128, 128, 128], 'activation': 'tanh', 'weight_init': 'xavier', 'loss': 'cross_entropy', 'model_path': 'best_model.npy', 'wandb_project': 'dl_1', '_wandb': {}}
+2026-03-05 21:42:07,091 INFO    MainThread:24776 [wandb_init.py:init():892] starting backend
+2026-03-05 21:42:09,457 INFO    MainThread:24776 [wandb_init.py:init():895] sending inform_init request
+2026-03-05 21:42:09,479 INFO    MainThread:24776 [wandb_init.py:init():903] backend started and connected
+2026-03-05 21:42:09,480 INFO    MainThread:24776 [wandb_run.py:_config_callback():1403] config_cb None None {'activation': 'tanh', 'batch_size': 16, 'l1_size': 64, 'l2_size': 128, 'l3_size': 128, 'l4_size': 128, 'l5_size': 64, 'l6_size': 32, 'learning_rate': 0.023355389024719946, 'loss': 'cross_entropy', 'num_layers': 1, 'optimizer': 'momentum', 'weight_init': 'xavier'}
+2026-03-05 21:42:09,480 INFO    MainThread:24776 [wandb_init.py:init():973] updated telemetry
+2026-03-05 21:42:09,509 INFO    MainThread:24776 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-03-05 21:42:12,563 INFO    MainThread:24776 [wandb_init.py:init():1042] starting run threads in backend
+2026-03-05 21:42:13,010 INFO    MainThread:24776 [wandb_run.py:_console_start():2524] atexit reg
+2026-03-05 21:42:13,010 INFO    MainThread:24776 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-03-05 21:42:13,010 INFO    MainThread:24776 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-03-05 21:42:13,011 INFO    MainThread:24776 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-03-05 21:42:13,013 INFO    MainThread:24776 [wandb_init.py:init():1082] run started, returning control to user process
+2026-03-05 21:42:13,013 INFO    MainThread:24776 [wandb_run.py:_config_callback():1403] config_cb None None {'hidden_size': [64], 'actual_architecture': '[64]'}
+2026-03-05 21:42:39,870 INFO    MainThread:24776 [wandb_run.py:_finish():2291] finishing run kowshikisme-indian-institute-of-technology-madras/dl_1/ep5429ap
+2026-03-05 21:42:39,870 INFO    MainThread:24776 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-03-05 21:42:39,871 INFO    MainThread:24776 [wandb_run.py:_restore():2472] restore
+2026-03-05 21:42:39,871 INFO    MainThread:24776 [wandb_run.py:_restore():2478] restore done
+2026-03-05 21:42:43,605 INFO    MainThread:24776 [wandb_run.py:_footer_sync_info():3868] logging synced files

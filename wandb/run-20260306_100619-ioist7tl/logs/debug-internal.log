@@ -1,0 +1,12 @@
+{"time":"2026-03-06T10:06:21.6038921+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-06T10:06:23.2732785+05:30","level":"INFO","msg":"stream: created new stream","id":"ioist7tl"}
+{"time":"2026-03-06T10:06:23.2732785+05:30","level":"INFO","msg":"handler: started","stream_id":"ioist7tl"}
+{"time":"2026-03-06T10:06:23.2743033+05:30","level":"INFO","msg":"stream: started","id":"ioist7tl"}
+{"time":"2026-03-06T10:06:23.2743033+05:30","level":"INFO","msg":"writer: started","stream_id":"ioist7tl"}
+{"time":"2026-03-06T10:06:23.2743033+05:30","level":"INFO","msg":"sender: started","stream_id":"ioist7tl"}
+{"time":"2026-03-06T10:07:33.0007093+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-06T10:07:33.9605+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-06T10:07:33.9805096+05:30","level":"INFO","msg":"stream: closing","id":"ioist7tl"}
+{"time":"2026-03-06T10:07:33.9805096+05:30","level":"INFO","msg":"handler: closed","stream_id":"ioist7tl"}
+{"time":"2026-03-06T10:07:33.983158+05:30","level":"INFO","msg":"sender: closed","stream_id":"ioist7tl"}
+{"time":"2026-03-06T10:07:33.983158+05:30","level":"INFO","msg":"stream: closed","id":"ioist7tl"}

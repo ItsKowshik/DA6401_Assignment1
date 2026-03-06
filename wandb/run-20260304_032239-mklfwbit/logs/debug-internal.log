@@ -1,0 +1,12 @@
+{"time":"2026-03-04T03:22:39.453105147+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-04T03:22:40.484219151+05:30","level":"INFO","msg":"stream: created new stream","id":"mklfwbit"}
+{"time":"2026-03-04T03:22:40.484354996+05:30","level":"INFO","msg":"handler: started","stream_id":"mklfwbit"}
+{"time":"2026-03-04T03:22:40.484778101+05:30","level":"INFO","msg":"stream: started","id":"mklfwbit"}
+{"time":"2026-03-04T03:22:40.484800104+05:30","level":"INFO","msg":"writer: started","stream_id":"mklfwbit"}
+{"time":"2026-03-04T03:22:40.48482833+05:30","level":"INFO","msg":"sender: started","stream_id":"mklfwbit"}
+{"time":"2026-03-04T03:23:25.848081898+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-04T03:23:26.376828571+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-04T03:23:26.385251472+05:30","level":"INFO","msg":"stream: closing","id":"mklfwbit"}
+{"time":"2026-03-04T03:23:26.385283204+05:30","level":"INFO","msg":"handler: closed","stream_id":"mklfwbit"}
+{"time":"2026-03-04T03:23:26.385411451+05:30","level":"INFO","msg":"sender: closed","stream_id":"mklfwbit"}
+{"time":"2026-03-04T03:23:26.385438823+05:30","level":"INFO","msg":"stream: closed","id":"mklfwbit"}

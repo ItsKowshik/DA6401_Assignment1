@@ -1,0 +1,13 @@
+{"time":"2026-03-05T13:32:20.503973838+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-05T13:32:21.024097407+05:30","level":"INFO","msg":"stream: created new stream","id":"afd5m4ao"}
+{"time":"2026-03-05T13:32:21.024265283+05:30","level":"INFO","msg":"handler: started","stream_id":"afd5m4ao"}
+{"time":"2026-03-05T13:32:21.024487435+05:30","level":"INFO","msg":"stream: started","id":"afd5m4ao"}
+{"time":"2026-03-05T13:32:21.024522585+05:30","level":"INFO","msg":"sender: started","stream_id":"afd5m4ao"}
+{"time":"2026-03-05T13:32:21.02453154+05:30","level":"INFO","msg":"writer: started","stream_id":"afd5m4ao"}
+{"time":"2026-03-05T13:32:37.613584256+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-05T14:31:09.323989504+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kowshikisme-indian-institute-of-technology-madras/dl_1/afd5m4ao/file_stream\": read tcp 10.42.184.73:58150->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2026-03-05T14:31:12.833963013+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-05T14:31:12.838655578+05:30","level":"INFO","msg":"stream: closing","id":"afd5m4ao"}
+{"time":"2026-03-05T14:31:12.838732271+05:30","level":"INFO","msg":"handler: closed","stream_id":"afd5m4ao"}
+{"time":"2026-03-05T14:31:12.838831+05:30","level":"INFO","msg":"sender: closed","stream_id":"afd5m4ao"}
+{"time":"2026-03-05T14:31:12.838836497+05:30","level":"INFO","msg":"stream: closed","id":"afd5m4ao"}
