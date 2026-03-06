@@ -1,5 +1,5 @@
-./autograder/
-./checkpoints/
-./wandb/
+autograder/
+checkpoints/
+wandb/
 *.zip
-./__pycache__/
+**/__pycache__/
