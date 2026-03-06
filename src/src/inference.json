@@ -1,0 +1,9 @@
+{
+    "model_path": "best_model.npy",
+    "dataset": "mnist",
+    "loss": 0.07329074002994118,
+    "accuracy": 0.9786,
+    "precision": 0.9784532830935302,
+    "recall": 0.9783665212102266,
+    "f1_score": 0.9783759590490277
+}

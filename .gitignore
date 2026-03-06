@@ -1,0 +1,5 @@
+autograder/
+checkpoints/
+wandb/
+*.zip
+__pycache__/

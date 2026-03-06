@@ -11,6 +11,7 @@ import json
 #Load the models
 from utils.data_loader import get_preprocessed_data
 from ann.neural_network import NeuralNetwork
+import ast
 from ann.optimizers import get_optimizer
 
 def parse_arguments():
@@ -36,7 +37,7 @@ def parse_arguments():
     # Dataset and Training Hyperparameters
     parser.add_argument('--dataset', type=str, default='mnist', choices=['mnist', 'fashion_mnist'], 
                         help="Dataset to train on: 'mnist' or 'fashion_mnist'")
-    parser.add_argument('--epochs', type=int, default=10, 
+    parser.add_argument('--epochs', type=int, default=15, 
                         help='Number of training epochs')
     parser.add_argument('-b','--batch_size', type=int, default=32, 
                         help='Mini-batch size for training')
@@ -48,7 +49,7 @@ def parse_arguments():
     parser.add_argument('-wd', '--weight_decay', type=float, default=0.0)
     # Architecture Configuration
     parser.add_argument('-nhl', '--num_layers', type=int, default=3, help='Number of hidden layers')
-    parser.add_argument('-sz', '--hidden_size', type=int, nargs='+', default=[128, 128, 128], help='Neurons in each hidden layer')
+    parser.add_argument('-sz', '--hidden_size',  nargs='+', default=[128, 128, 128], help='Neurons in each hidden layer')
     parser.add_argument('-a', '--activation', type=str, default='relu', choices=['sigmoid', 'tanh', 'relu'])
     parser.add_argument('-wi', '--weight_init', type=str, default='xavier', choices=['random', 'xavier'])
     # Loss Function
@@ -61,8 +62,21 @@ def parse_arguments():
     parser.add_argument('-w_p', '--wandb_project', type=str, default='dl_1', help='Weights and Biases Project ID')
     
     
-    return parser.parse_args()
+    # Parse the command-line arguments
+    args, _ = parser.parse_known_args()
+    clean_sizes = []
+    for item in args.hidden_size:
+        item_str = str(item)
+        if item_str.startswith('['):
+            clean_sizes.extend(ast.literal_eval(item_str))
+        else:
+            clean_sizes.append(int(item))
+    # Update the hidden_size and num_layers attributes
+    args.hidden_size = clean_sizes
+    args.num_layers = len(clean_sizes)
 
+    
+    return args
 
 def get_batches(X, y, batch_size):
     """
@@ -112,19 +126,30 @@ def main():
     
     """
     args = parse_arguments()
-    if len(args.hidden_size) != args.num_layers:
-        raise ValueError(
-            f"Architecture Mismatch: You specified {args.num_layers} layers "
-            f"but provided {len(args.hidden_size)} hidden sizes ({args.hidden_size}). "
-            f"Please match these counts."
-        )
     # Initialize Weights & Biases
-    wandb.init(project=args.wandb_project, config=vars(args))
+    run = wandb.init(project=args.wandb_project, config=vars(args))
+    config = wandb.config
+    if 'l1_size' in config:
+        # Sizes for six possible layers
+        master_sizes = [
+            config.l1_size, config.l2_size, config.l3_size,
+            config.l4_size, config.l5_size, config.l6_size
+        ]
+        # Slice the list to match the chosen number of layers
+        actual_num_layers = config.num_layers
+        actual_hidden_sizes = master_sizes[:actual_num_layers]
+        args.num_layers = actual_num_layers
+        args.hidden_size = actual_hidden_sizes
+        # Update config so W&B dashboard
+        wandb.config.update({
+            "hidden_size": actual_hidden_sizes,
+            "actual_architecture": str(actual_hidden_sizes)
+        }, allow_val_change=True)
     print(f"Loading {args.dataset} dataset")
     # Preprocess the data
     X_train, y_train, X_test, y_test = get_preprocessed_data(args.dataset)
-    print(f"Initializing Neural Network with {args.num_layers} hidden layers")
-    nn = NeuralNetwork(args)
+    print(f"Initializing Neural Network with {args.num_layers} hidden layers and hidden sizes {args.hidden_size}")
+    nn = NeuralNetwork(config)
     optimizer = get_optimizer(args.optimizer, args.learning_rate)
     # The Training Loop
     
@@ -179,7 +204,7 @@ def main():
             print(f"New best validation accuracy ({global_best_acc:.4f})")
             print("Saving model weights\n")
             best_weights = nn.get_weights()
-            np.save("best_model.npy", best_weights)
+            np.save(args.model_path, best_weights)
             with open(tracker_file, 'w') as f:
                 f.write(str(global_best_acc))
             config_file = "best_config.json"

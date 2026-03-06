@@ -65,12 +65,23 @@ def infer_architecture_from_weights(model_path):
     """
     try:
         weights = np.load(model_path, allow_pickle=True).item()
-        # Count W matrices
-        num_w_matrices = len([k for k in weights.keys() if k.startswith('W_')])
-        hidden_layers = num_w_matrices - 1
-        # Get number of neurons
-        num_neurons = weights['W_0'].shape[1]
-        return hidden_layers, num_neurons
+    
+        # Safely find all weight keys (works with 'W1', 'W2' or 'W_0', 'W_1')
+        w_keys = sorted([k for k in weights.keys() if k.startswith('W')])
+        
+        if not w_keys:
+            raise ValueError("No weight matrices found in the file!")
+            
+        # The number of hidden layers is total weight matrices minus 1 (the output layer)
+        num_hidden_layers = len(w_keys) - 1
+        
+        # Extract the hidden sizes by looking at the output dimension (shape[1]) 
+        # of every weight matrix except the last one.
+        hidden_sizes = []
+        for key in w_keys[:-1]:
+            hidden_sizes.append(weights[key].shape[1])
+            
+        return num_hidden_layers, hidden_sizes
         
     except FileNotFoundError:
         print(f"Error: Could not find model file at {model_path}")
@@ -143,17 +154,31 @@ def main():
     
     """
     args = parse_arguments()
-    print(f"Loading {args.model_path} to determine architecture")
-    inferred_layers, inferred_neurons = infer_architecture_from_weights(args.model_path)
-    args.num_layers = inferred_layers
-    args.hidden_size = [inferred_neurons] * inferred_layers
-    print(f"Auto-detected: {args.num_layers} hidden layers, {args.hidden_size[0]} neurons per layer.")
+    config_path = "best_config.json"
+    try:
+        with open(config_path, 'r') as f:
+            saved_config = json.load(f)
+        # Load best config values into args
+        for key, value in saved_config.items():
+            setattr(args, key, value)
+            
+        print(f"Loaded blueprint from {config_path}")
+        print(f"Architecture: {args.num_layers} layers, Sizes: {args.hidden_size}")
+        print(f"Activation: {args.activation.upper()} | Loss: {args.loss.upper()}")
+        
+    except FileNotFoundError:
+        print(f"Error: {config_path} missing. Run train.py first!")
+        return
+    
+    # Load test dataset
     print(f"Loading {args.dataset} test dataset")
     _, _, X_test, y_test = get_preprocessed_data(args.dataset)
+    # Initialize the model architecture based on the saved config
     print("Initializing Neural Network architecture")
     nn = NeuralNetwork(args)
+    # Load the weights
     print("Loading saved weights")
-    weights = load_model(nn, args.model_path)
+    weights = np.load(args.model_path, allow_pickle=True).item()
     nn.set_weights(weights)
     print("Evaluating model")
     results = evaluate_model(nn, X_test, y_test, args.loss)

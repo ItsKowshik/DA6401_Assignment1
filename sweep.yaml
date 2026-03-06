@@ -8,11 +8,20 @@ metric:
   name: val_accuracy
   goal: maximize
 parameters:
-  # CHANGE THESE to match your argparse --long-names
-  num_layers:      # Was hidden_layers
-    values: [1, 2, 3, 4]
-  hidden_size:     # Was num_neurons
-    values: [64, 128, 256]
+  num_layers:
+    values: [1, 2, 3, 4, 5, 6]
+  l1_size:
+    values: [32, 64, 128]
+  l2_size:
+    values: [32, 64, 128]
+  l3_size:
+    values: [32, 64, 128]
+  l4_size:
+    values: [32, 64, 128]
+  l5_size:
+    values: [32, 64, 128]
+  l6_size:
+    values: [32, 64, 128]
   activation:
     values: ["sigmoid", "tanh", "relu"]
   optimizer:
