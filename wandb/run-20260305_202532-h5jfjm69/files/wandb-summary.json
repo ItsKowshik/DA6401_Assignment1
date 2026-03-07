@@ -1,1 +1,0 @@
-{"train_loss":0.20264265423236863,"_runtime":10,"_step":4694,"epoch":5,"val_accuracy":0.9369,"_wandb":{"runtime":10},"step":4689,"tanh_grad_norm":0.19503320992315218,"saturated_neuron_percentage":0,"_timestamp":1.7727225443904243e+09}

@@ -1,5 +1,0 @@
-[34m[1mwandb[0m: [33mWARNING[0m Architecture Mismatch: 'num_layers' is 4 but 'hidden_size' provided 1 values ([256]). Broadcasting/Slicing will be applied.
-Loading mnist dataset
-Initializing Neural Network with 4 hidden layers
-Loaded previous global best accuracy: 0.9755
-Starting training

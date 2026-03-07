@@ -59,13 +59,14 @@ def run_depth_experiment(X_train, y_train):
         name="vanishing_gradient_depth_comparison", 
         group="vanishing_gradient_analysis"
     )
-    
-    for act in activations:
-        print(f"\n Testing {act.upper()} across different depths ")
-        for depth in depths_to_test:
+    #wandb.define_metric(step_metric="network_depth")
+    for depth in depths_to_test:
+        print(f"\n Testing Depth: {depth} Layers ")
+        log_data = {"network_depth": depth}
+        # Test both activations for this specific depth
+        for act in activations:
             args = Args(act, depth)
             nn = NeuralNetwork(args)
-            
             # Calculate the grad norms for the first hidden layer across a few batches  
             grad_norms = []
             for i in range(0, args.batch_size * 5, args.batch_size):
@@ -79,15 +80,14 @@ def run_depth_experiment(X_train, y_train):
                 grad_norms.append(np.linalg.norm(dW_first_layer))
             # Average the initial gradient norms
             avg_grad_norm = np.mean(grad_norms)
-            print(f"Depth: {depth} Layers | First Layer Grad Norm: {avg_grad_norm:.6f}")
-            
-            # Log to W&B
-            wandb.log({
-                "network_depth": depth,
-                f"{act}_first_layer_grad_norm": avg_grad_norm
-            })
+            print(f"[{act.upper()}] First Layer Grad Norm: {avg_grad_norm:.6f}")
+            # Add to dictionary
+            log_data[f"{act}_first_layer_grad_norm"] = avg_grad_norm
+        # Log into W&b
+        wandb.log(log_data)
             
     wandb.finish()
+    
 
 if __name__ == "__main__":
     print("Loading dataset")

@@ -1,9 +1,0 @@
-Loading mnist dataset...
-Initializing Neural Network with 2 hidden layers...
-Starting training...
-Epoch 1/5 - Train Loss: 0.1858, Train Acc: 0.9108 - Val Loss: 0.2063, Val Acc: 0.9396
-Epoch 2/5 - Train Loss: 0.1817, Train Acc: 0.9490 - Val Loss: 0.1961, Val Acc: 0.9465
-Epoch 3/5 - Train Loss: 0.1491, Train Acc: 0.9558 - Val Loss: 0.1908, Val Acc: 0.9483
-Epoch 4/5 - Train Loss: 0.1374, Train Acc: 0.9604 - Val Loss: 0.1758, Val Acc: 0.9567
-Epoch 5/5 - Train Loss: 0.1100, Train Acc: 0.9634 - Val Loss: 0.1595, Val Acc: 0.9624
-Model successfully saved to checkpoints/model.npz

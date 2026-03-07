@@ -219,6 +219,11 @@ python src/train.py --loss cross_entropy -lr 0.01 --wandb_project dl_1
 ```
 
 
+# Wandb Project Link
+
+https://wandb.ai/kowshikisme-indian-institute-of-technology-madras/dl_1?nw=nwuserkowshikisme
+
+
 Each run will automatically log:
 
 - Training loss

@@ -1,7 +1,0 @@
-
- Tracking Dead Neurons for RELU
-Epoch 1 | Dead Neurons: 0.0% | Val Acc: 0.8477
-Epoch 2 | Dead Neurons: 0.0% | Val Acc: 0.9230
-Epoch 3 | Dead Neurons: 0.0% | Val Acc: 0.9399
-Epoch 4 | Dead Neurons: 0.0% | Val Acc: 0.9513
-Epoch 5 | Dead Neurons: 0.0% | Val Acc: 0.9594

@@ -1,1 +1,0 @@
-{"tanh_grad_norm":0.5534870097614798,"_step":4694,"_timestamp":1.7726941526593304e+09,"saturated_neuron_percentage":0,"_runtime":8,"_wandb":{"runtime":8},"step":4689,"val_accuracy":0.9362,"epoch":5,"train_loss":0.20708592763873246}

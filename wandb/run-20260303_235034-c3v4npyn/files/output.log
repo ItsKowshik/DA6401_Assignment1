@@ -1,7 +1,0 @@
-
- Training with TANH
-Epoch 1 | Train Loss: 2.3012 | Val Acc: 0.1028 | Dead/Sat Neurons: 0.0%
-Epoch 2 | Train Loss: 1.2360 | Val Acc: 0.5491 | Dead/Sat Neurons: 0.0%
-Epoch 3 | Train Loss: 0.3496 | Val Acc: 0.9026 | Dead/Sat Neurons: 0.0%
-Epoch 4 | Train Loss: 0.2282 | Val Acc: 0.9327 | Dead/Sat Neurons: 0.0%
-Epoch 5 | Train Loss: 0.1656 | Val Acc: 0.9473 | Dead/Sat Neurons: 0.0%

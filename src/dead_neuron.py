@@ -40,6 +40,14 @@ def run_activation_experiment(activation_type, X_train, y_train, X_test, y_test)
         group="dead_neuron_experiment_v4", 
         config=vars(args)
     )
+    wandb.define_metric("step")
+    wandb.define_metric("epoch")
+
+    wandb.define_metric(f"{activation_type}_grad_norm", step_metric="step")
+    wandb.define_metric("dead_neuron_percentage", step_metric="step")
+    wandb.define_metric("saturated_neuron_percentage", step_metric="step")
+    wandb.define_metric("train_loss", step_metric="epoch")
+    wandb.define_metric("val_accuracy", step_metric="epoch")
     # Create the neural network and optimizer
     nn = NeuralNetwork(args)
     optimizer = get_optimizer(args.optimizer, args.learning_rate)
