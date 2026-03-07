@@ -223,6 +223,8 @@ python src/train.py --loss cross_entropy -lr 0.01 --wandb_project dl_1
 
 https://wandb.ai/kowshikisme-indian-institute-of-technology-madras/dl_1?nw=nwuserkowshikisme
 
+Report: https://api.wandb.ai/links/kowshikisme-indian-institute-of-technology-madras/0kp9pl6g
+
 
 Each run will automatically log:
 
