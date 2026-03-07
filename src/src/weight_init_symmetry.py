@@ -56,17 +56,16 @@ def run_symmetry_experiment(init_type, X_train, y_train):
         grads = nn.backward(y_batch, logits)
         # Extract gradients for the first layer (input to hidden)
         dW_first_layer = grads[0][0]
-
-    wandb.log({
-        "iteration": step,
-        "neuron_1_grad": np.linalg.norm(dW_first_layer[:, 0]),
-        "neuron_2_grad": np.linalg.norm(dW_first_layer[:, 1]),
-        "neuron_3_grad": np.linalg.norm(dW_first_layer[:, 2]),
-        "neuron_4_grad": np.linalg.norm(dW_first_layer[:, 3]),
-        "neuron_5_grad": np.linalg.norm(dW_first_layer[:, 4]),
-    })
-    # Update weights only for non-zero initialization to show the effect of symmetry breaking
-    if init_type != 'zeros':
+        wandb.log({
+            "iteration": step,
+            "neuron_1_grad": np.linalg.norm(dW_first_layer[:, 0]),
+            "neuron_2_grad": np.linalg.norm(dW_first_layer[:, 1]),
+            "neuron_3_grad": np.linalg.norm(dW_first_layer[:, 2]),
+            "neuron_4_grad": np.linalg.norm(dW_first_layer[:, 3]),
+            "neuron_5_grad": np.linalg.norm(dW_first_layer[:, 4]),
+        })
+        
+        # Update weights for BOTH runs to prove the symmetry trap cannot be escaped!
         nn.update_weights(grads, optimizer)
 
     wandb.finish()

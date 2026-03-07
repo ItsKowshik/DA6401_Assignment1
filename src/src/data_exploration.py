@@ -51,4 +51,4 @@ def log_sample_images(dataset_name='mnist'):
     print("Generated W&B Table with 5 samples per class")
 
 if __name__ == "__main__":
-    log_sample_images('fashion_mnist')
+    log_sample_images('mnist')
